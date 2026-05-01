@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTML evolution timeline</title>
+  <desc id="desc">HTML evolved from early versions to HTML4, XHTML, and HTML5.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Evolution of HTML</text>
+  <line x1="102" y1="178" x2="598" y2="178" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" font-weight="700">
+    <circle cx="120" cy="178" r="24" fill="#e0f2fe" stroke="#7dd3fc"/><text x="120" y="224" font-size="14" fill="#12355b">HTML</text><text x="120" y="246" font-size="13" fill="#526174">1990</text>
+    <circle cx="250" cy="178" r="24" fill="#fef3c7" stroke="#f59e0b"/><text x="250" y="224" font-size="14" fill="#12355b">HTML 4</text><text x="250" y="246" font-size="13" fill="#526174">1997</text>
+    <circle cx="390" cy="178" r="24" fill="#e0f2fe" stroke="#7dd3fc"/><text x="390" y="224" font-size="14" fill="#12355b">XHTML</text><text x="390" y="246" font-size="13" fill="#526174">2000</text>
+    <circle cx="530" cy="178" r="24" fill="#fef3c7" stroke="#f59e0b"/><text x="530" y="224" font-size="14" fill="#12355b">HTML5</text><text x="530" y="246" font-size="13" fill="#526174">2014</text>
+  </g>
+</svg>

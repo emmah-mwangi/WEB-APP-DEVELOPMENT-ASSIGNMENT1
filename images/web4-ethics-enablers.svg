@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Web 4 ethics and enablers</title>
+  <desc id="desc">Web 4.0 needs 5G, edge computing, AI, sensors, privacy, consent, and open standards.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Web 4.0 Enablers and Ethics</text>
+  <line x1="350" y1="92" x2="350" y2="292" stroke="#d7e0ec" stroke-width="2"/>
+  <text x="210" y="112" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#12355b">Enablers</text>
+  <text x="490" y="112" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#12355b">Ethics</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#12355b">
+    <rect x="105" y="140" width="210" height="38" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="210" y="164">5G / 6G and edge</text>
+    <rect x="105" y="196" width="210" height="38" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="210" y="220">AI and sensors</text>
+    <rect x="385" y="140" width="210" height="38" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="490" y="164">Privacy and consent</text>
+    <rect x="385" y="196" width="210" height="38" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="490" y="220">Open standards</text>
+  </g>
+</svg>

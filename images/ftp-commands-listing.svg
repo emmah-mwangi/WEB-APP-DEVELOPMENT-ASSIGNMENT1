@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">FTP commands listing</title>
+  <desc id="desc">A table of common FTP commands and reply codes.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">FTP Commands and Responses</text>
+  <rect x="95" y="96" width="510" height="206" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+  <rect x="95" y="96" width="510" height="38" rx="8" fill="#12355b"/>
+  <g font-family="Consolas,monospace" font-size="16">
+    <text x="125" y="122" fill="#fff">Command</text><text x="345" y="122" fill="#fff">Meaning</text>
+    <text x="125" y="166" fill="#12355b">USER / PASS</text><text x="345" y="166" fill="#526174">log in</text>
+    <text x="125" y="196" fill="#12355b">LIST</text><text x="345" y="196" fill="#526174">directory listing</text>
+    <text x="125" y="226" fill="#12355b">RETR</text><text x="345" y="226" fill="#526174">download file</text>
+    <text x="125" y="256" fill="#12355b">STOR</text><text x="345" y="256" fill="#526174">upload file</text>
+    <text x="125" y="286" fill="#c2415d">230 / 550</text><text x="345" y="286" fill="#526174">success / not found</text>
+  </g>
+</svg>

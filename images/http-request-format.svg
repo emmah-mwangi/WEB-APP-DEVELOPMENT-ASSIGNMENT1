@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP request format</title>
+  <desc id="desc">An HTTP request contains a method, path, version, headers, and optional body.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">HTTP Request Structure</text>
+  <rect x="92" y="96" width="516" height="200" rx="8" fill="#15263b"/>
+  <rect x="92" y="96" width="516" height="38" rx="8" fill="#c2415d"/>
+  <text x="120" y="121" font-family="Consolas,monospace" font-size="16" fill="#fff">GET /products HTTP/1.1</text>
+  <text x="120" y="166" font-family="Consolas,monospace" font-size="16" fill="#dbeafe">Host: example.com</text>
+  <text x="120" y="196" font-family="Consolas,monospace" font-size="16" fill="#dbeafe">Accept: text/html</text>
+  <text x="120" y="226" font-family="Consolas,monospace" font-size="16" fill="#dbeafe">Authorization: Bearer token</text>
+  <text x="120" y="264" font-family="Consolas,monospace" font-size="16" fill="#fef3c7">Optional body for POST / PUT</text>
+  <text x="500" y="121" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#fff">start line</text>
+</svg>

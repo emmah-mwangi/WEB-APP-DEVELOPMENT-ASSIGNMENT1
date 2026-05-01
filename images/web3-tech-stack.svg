@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Web 3 technology stack</title>
+  <desc id="desc">Web 3.0 technologies include RDF, OWL, SPARQL, blockchain, IPFS, and digital identity.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Web 3.0 Technology Stack</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#12355b">
+    <rect x="160" y="105" width="380" height="38" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="350" y="130">DIDs and user identity</text>
+    <rect x="160" y="157" width="380" height="38" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="350" y="182">RDF / OWL / SPARQL</text>
+    <rect x="160" y="209" width="380" height="38" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="350" y="234">Smart contracts</text>
+    <rect x="160" y="261" width="380" height="38" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="350" y="286">Blockchain and IPFS</text>
+  </g>
+</svg>

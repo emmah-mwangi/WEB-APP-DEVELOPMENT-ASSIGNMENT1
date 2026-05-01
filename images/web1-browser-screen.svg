@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Classic Web 1 browser screen</title>
+  <desc id="desc">A classic browser window showing simple blue links and brochure-style content.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Web 1.0 Technology and Limits</text>
+  <rect x="108" y="96" width="484" height="208" rx="8" fill="#f8fafc" stroke="#9fb0c5"/>
+  <rect x="108" y="96" width="484" height="34" rx="8" fill="#cbd5e1"/>
+  <rect x="135" y="151" width="180" height="12" rx="6" fill="#2563eb"/>
+  <rect x="135" y="183" width="260" height="12" rx="6" fill="#2563eb"/>
+  <rect x="135" y="215" width="140" height="12" rx="6" fill="#2563eb"/>
+  <rect x="410" y="151" width="112" height="82" rx="6" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="350" y="271" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#526174">few authors, many readers, limited interaction</text>
+</svg>

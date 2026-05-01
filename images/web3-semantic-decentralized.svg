@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Web 3 semantic and decentralized</title>
+  <desc id="desc">Web 3.0 combines semantic data, knowledge graphs, decentralization, identity, and smart contracts.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Web 3.0: Semantic and Decentralized</text>
+  <circle cx="248" cy="178" r="66" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="3"/>
+  <circle cx="452" cy="178" r="66" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+  <text x="248" y="172" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#12355b">Semantic</text>
+  <text x="248" y="198" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#526174">meaningful data</text>
+  <text x="452" y="172" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#12355b">Decentralized</text>
+  <text x="452" y="198" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#526174">user control</text>
+  <path d="M314 178 H386" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+</svg>

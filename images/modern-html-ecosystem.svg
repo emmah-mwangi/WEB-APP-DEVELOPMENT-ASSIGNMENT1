@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Modern HTML ecosystem</title>
+  <desc id="desc">Modern HTML works with frameworks, server rendering, web components, PWAs, and accessibility tools.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Modern HTML Ecosystem</text>
+  <circle cx="350" cy="178" r="56" fill="#12355b"/>
+  <text x="350" y="186" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#fff">HTML</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#12355b">
+    <rect x="80" y="116" width="132" height="46" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="146" y="145">Frameworks</text>
+    <rect x="80" y="222" width="132" height="46" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="146" y="251">PWA</text>
+    <rect x="488" y="116" width="132" height="46" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="554" y="145">SSR / SSG</text>
+    <rect x="488" y="222" width="132" height="46" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="554" y="251">Components</text>
+  </g>
+  <path d="M212 139 H294 M212 245 L302 210 M406 139 H488 M398 210 L488 245" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>

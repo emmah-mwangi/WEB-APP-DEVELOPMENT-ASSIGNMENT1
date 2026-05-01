@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP headers metadata</title>
+  <desc id="desc">HTTP headers carry metadata about content type, caching, cookies, language, and security.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">HTTP Headers as Metadata</text>
+  <rect x="92" y="98" width="516" height="196" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+  <g font-family="Consolas,monospace" font-size="16">
+    <text x="125" y="135" fill="#12355b">Content-Type: text/html</text>
+    <text x="125" y="166" fill="#12355b">Cache-Control: max-age=3600</text>
+    <text x="125" y="197" fill="#12355b">Set-Cookie: session=abc; HttpOnly</text>
+    <text x="125" y="228" fill="#12355b">Accept-Language: en-US</text>
+    <text x="125" y="259" fill="#c2415d">Strict-Transport-Security: max-age=31536000</text>
+  </g>
+</svg>

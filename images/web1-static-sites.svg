@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Web 1 static sites</title>
+  <desc id="desc">Web 1.0 was mostly read-only static HTML pages linked together.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Web 1.0: Static Read-Only Sites</text>
+  <rect x="155" y="105" width="390" height="190" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+  <rect x="155" y="105" width="390" height="36" rx="8" fill="#12355b"/>
+  <rect x="195" y="168" width="220" height="14" rx="7" fill="#526174"/>
+  <rect x="195" y="202" width="300" height="14" rx="7" fill="#526174"/>
+  <rect x="195" y="236" width="170" height="14" rx="7" fill="#c2415d"/>
+  <text x="350" y="128" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#fff">static-page.html</text>
+</svg>

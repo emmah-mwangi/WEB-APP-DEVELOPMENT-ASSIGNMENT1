@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTML code structure</title>
+  <desc id="desc">HTML uses elements and attributes to structure a web page.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">HTML Code Structure</text>
+  <rect x="94" y="93" width="512" height="208" rx="8" fill="#15263b"/>
+  <g font-family="Consolas,monospace" font-size="16" fill="#dbeafe">
+    <text x="125" y="132">&lt;!DOCTYPE html&gt;</text>
+    <text x="125" y="162">&lt;html lang="en"&gt;</text>
+    <text x="155" y="192">&lt;head&gt;&lt;title&gt;Page&lt;/title&gt;&lt;/head&gt;</text>
+    <text x="155" y="222">&lt;body&gt;&lt;h1&gt;Hello Web&lt;/h1&gt;&lt;/body&gt;</text>
+    <text x="125" y="252">&lt;/html&gt;</text>
+  </g>
+</svg>

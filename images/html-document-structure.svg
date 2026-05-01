@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTML document structure</title>
+  <desc id="desc">An HTML document contains html, head, and body sections with semantic page regions.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">HTML Document Structure</text>
+  <rect x="105" y="92" width="490" height="220" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+  <rect x="135" y="123" width="430" height="45" rx="8" fill="#12355b"/>
+  <rect x="135" y="185" width="430" height="96" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+  <text x="350" y="151" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">&lt;head&gt; metadata</text>
+  <text x="350" y="220" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#12355b">&lt;body&gt; visible content</text>
+  <text x="350" y="252" text-anchor="middle" font-family="Consolas,monospace" font-size="15" fill="#526174">&lt;header&gt; &lt;nav&gt; &lt;main&gt; &lt;footer&gt;</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">FTP client and server software</title>
+  <desc id="desc">FTP client software connects to FTP server software for file operations.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">FTP Client and Server Software</text>
+  <rect x="75" y="105" width="240" height="170" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+  <rect x="385" y="105" width="240" height="170" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="195" y="139" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#12355b">Clients</text>
+  <text x="505" y="139" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#12355b">Servers</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#526174">
+    <text x="120" y="180">FileZilla</text><text x="120" y="212">WinSCP</text><text x="120" y="244">Cyberduck</text>
+    <text x="430" y="180">vsftpd</text><text x="430" y="212">ProFTPD</text><text x="430" y="244">IIS FTP</text>
+  </g>
+</svg>

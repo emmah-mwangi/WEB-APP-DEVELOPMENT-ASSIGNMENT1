@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP protocol overview</title>
+  <desc id="desc">A browser sends HTTP requests to a web server and receives resources in responses.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">HTTP Protocol Overview</text>
+  <rect x="80" y="124" width="150" height="100" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+  <rect x="470" y="112" width="150" height="124" rx="8" fill="#12355b"/>
+  <text x="155" y="180" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#12355b">Browser</text>
+  <text x="545" y="181" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#fff">Web Server</text>
+  <path d="M240 146 H460" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M440 134 L462 146 L440 158" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M460 212 H240" stroke="#12355b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M260 200 L238 212 L260 224" fill="none" stroke="#12355b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="350" y="130" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#c2415d">Request</text>
+  <text x="350" y="238" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#12355b">Response: HTML, CSS, JS, media</text>
+</svg>

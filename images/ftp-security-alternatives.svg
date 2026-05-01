@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">FTP security alternatives</title>
+  <desc id="desc">Plain FTP is insecure, while FTPS and SFTP encrypt file transfers.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">FTP Security Alternatives</text>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="78" y="125" width="150" height="105" rx="8" fill="#fee2e2" stroke="#fca5a5"/>
+    <text x="153" y="164" font-size="22" fill="#12355b">FTP</text><text x="153" y="194" font-size="14" fill="#526174">plain text</text>
+    <rect x="275" y="125" width="150" height="105" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="350" y="164" font-size="22" fill="#12355b">FTPS</text><text x="350" y="194" font-size="14" fill="#526174">FTP + TLS</text>
+    <rect x="472" y="125" width="150" height="105" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="547" y="164" font-size="22" fill="#12355b">SFTP</text><text x="547" y="194" font-size="14" fill="#526174">SSH port 22</text>
+  </g>
+  <text x="350" y="278" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#12355b">Modern deployments prefer encrypted transfer.</text>
+</svg>

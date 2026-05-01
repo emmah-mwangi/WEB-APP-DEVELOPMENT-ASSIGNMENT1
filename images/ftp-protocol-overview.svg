@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">FTP file transfer protocol</title>
+  <desc id="desc">FTP transfers files between a client computer and a file server.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">File Transfer Protocol</text>
+  <rect x="78" y="124" width="150" height="102" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+  <rect x="472" y="116" width="150" height="118" rx="8" fill="#12355b"/>
+  <text x="153" y="181" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#12355b">FTP Client</text>
+  <text x="547" y="181" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">FTP Server</text>
+  <path d="M238 151 H462 M462 205 H238" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M443 139 L464 151 L443 163 M257 193 L236 205 L257 217" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="350" y="136" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#c2415d">upload</text>
+  <text x="350" y="231" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#12355b">download</text>
+</svg>

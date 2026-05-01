@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTML multimedia elements</title>
+  <desc id="desc">HTML supports video, audio, canvas, SVG, and responsive images.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">HTML Multimedia and Graphics</text>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="92" y="112" width="142" height="90" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><path d="M148 135 L188 157 L148 179 Z" fill="#c2415d"/><text x="163" y="228" fill="#12355b">&lt;video&gt;</text>
+    <rect x="280" y="112" width="142" height="90" rx="8" fill="#fef3c7" stroke="#f59e0b"/><path d="M330 162 C350 132 373 192 393 162" fill="none" stroke="#12355b" stroke-width="5"/><text x="351" y="228" fill="#12355b">&lt;audio&gt;</text>
+    <rect x="468" y="112" width="142" height="90" rx="8" fill="#edf2f7" stroke="#9fb0c5"/><circle cx="539" cy="157" r="28" fill="#c2415d"/><text x="539" y="228" fill="#12355b">&lt;canvas&gt;</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP response status codes</title>
+  <desc id="desc">HTTP response status codes are grouped into informational, success, redirect, client error, and server error classes.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">HTTP Response Status Codes</text>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="80" y="112" width="100" height="92" rx="8" fill="#edf2f7" stroke="#d7e0ec"/><text x="130" y="150" font-size="24" fill="#12355b">1xx</text><text x="130" y="178" font-size="14" fill="#526174">Info</text>
+    <rect x="190" y="112" width="100" height="92" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="240" y="150" font-size="24" fill="#12355b">2xx</text><text x="240" y="178" font-size="14" fill="#526174">Success</text>
+    <rect x="300" y="112" width="100" height="92" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="350" y="150" font-size="24" fill="#12355b">3xx</text><text x="350" y="178" font-size="14" fill="#526174">Redirect</text>
+    <rect x="410" y="112" width="100" height="92" rx="8" fill="#fee2e2" stroke="#fca5a5"/><text x="460" y="150" font-size="24" fill="#12355b">4xx</text><text x="460" y="178" font-size="14" fill="#526174">Client</text>
+    <rect x="520" y="112" width="100" height="92" rx="8" fill="#ffe4e6" stroke="#fb7185"/><text x="570" y="150" font-size="24" fill="#12355b">5xx</text><text x="570" y="178" font-size="14" fill="#526174">Server</text>
+  </g>
+  <rect x="155" y="240" width="390" height="40" rx="8" fill="#12355b"/>
+  <text x="350" y="266" text-anchor="middle" font-family="Consolas,monospace" font-size="17" fill="#fff">HTTP/1.1 200 OK</text>
+</svg>

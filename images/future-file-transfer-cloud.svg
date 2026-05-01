@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Future file transfer cloud</title>
+  <desc id="desc">Cloud storage, APIs, SFTP, and managed file transfer replace plain FTP.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Future of File Transfer</text>
+  <path d="M285 180 C246 178 235 135 268 120 C277 88 317 81 337 104 C365 91 407 110 403 147 C431 150 439 184 412 199 H285 Z" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="3"/>
+  <text x="350" y="163" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#12355b">Cloud</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#12355b">
+    <rect x="82" y="118" width="120" height="44" rx="8" fill="#edf2f7" stroke="#d7e0ec"/><text x="142" y="146">SFTP</text>
+    <rect x="82" y="230" width="120" height="44" rx="8" fill="#edf2f7" stroke="#d7e0ec"/><text x="142" y="258">MFT</text>
+    <rect x="498" y="118" width="120" height="44" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="558" y="146">REST APIs</text>
+    <rect x="498" y="230" width="120" height="44" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="558" y="258">Object Store</text>
+  </g>
+  <path d="M202 140 H268 M202 252 L286 195 M432 140 H498 M414 195 L498 252" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>

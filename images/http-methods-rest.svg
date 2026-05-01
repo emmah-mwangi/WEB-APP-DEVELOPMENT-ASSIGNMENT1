@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP methods in REST</title>
+  <desc id="desc">REST APIs use HTTP methods such as GET, POST, PUT, PATCH, and DELETE.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">HTTP Methods and REST APIs</text>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="83" y="118" width="96" height="64" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="131" y="156" font-size="20" fill="#12355b">GET</text>
+    <rect x="192" y="118" width="96" height="64" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="240" y="156" font-size="20" fill="#12355b">POST</text>
+    <rect x="301" y="118" width="96" height="64" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="349" y="156" font-size="20" fill="#12355b">PUT</text>
+    <rect x="410" y="118" width="96" height="64" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="458" y="156" font-size="20" fill="#12355b">PATCH</text>
+    <rect x="519" y="118" width="96" height="64" rx="8" fill="#fee2e2" stroke="#fca5a5"/><text x="567" y="156" font-size="20" fill="#12355b">DELETE</text>
+  </g>
+  <rect x="166" y="227" width="368" height="45" rx="8" fill="#12355b"/>
+  <text x="350" y="256" text-anchor="middle" font-family="Consolas,monospace" font-size="17" fill="#fff">/api/resources/{id}</text>
+</svg>

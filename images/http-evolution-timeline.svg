@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP evolution timeline</title>
+  <desc id="desc">HTTP evolved from 0.9 to 1.1, HTTP/2, and HTTP/3 over QUIC.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Evolution of HTTP</text>
+  <line x1="105" y1="178" x2="595" y2="178" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" font-weight="700">
+    <circle cx="120" cy="178" r="24" fill="#e0f2fe" stroke="#7dd3fc"/><text x="120" y="224" font-size="15" fill="#12355b">0.9</text><text x="120" y="248" font-size="13" fill="#526174">1991</text>
+    <circle cx="250" cy="178" r="24" fill="#fef3c7" stroke="#f59e0b"/><text x="250" y="224" font-size="15" fill="#12355b">1.1</text><text x="250" y="248" font-size="13" fill="#526174">1997</text>
+    <circle cx="390" cy="178" r="24" fill="#e0f2fe" stroke="#7dd3fc"/><text x="390" y="224" font-size="15" fill="#12355b">HTTP/2</text><text x="390" y="248" font-size="13" fill="#526174">2015</text>
+    <circle cx="530" cy="178" r="24" fill="#fef3c7" stroke="#f59e0b"/><text x="530" y="224" font-size="15" fill="#12355b">HTTP/3</text><text x="530" y="248" font-size="13" fill="#526174">QUIC</text>
+  </g>
+</svg>

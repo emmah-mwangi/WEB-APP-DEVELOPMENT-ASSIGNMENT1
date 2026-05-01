@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTML elements table</title>
+  <desc id="desc">Common HTML elements include headings, paragraphs, links, images, lists, and figures.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Core HTML Elements</text>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="90" y="110" width="120" height="56" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="150" y="144" fill="#12355b">&lt;h1&gt;</text>
+    <rect x="230" y="110" width="120" height="56" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="290" y="144" fill="#12355b">&lt;p&gt;</text>
+    <rect x="370" y="110" width="120" height="56" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="430" y="144" fill="#12355b">&lt;a&gt;</text>
+    <rect x="510" y="110" width="120" height="56" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="570" y="144" fill="#12355b">&lt;img&gt;</text>
+    <rect x="160" y="220" width="120" height="56" rx="8" fill="#edf2f7" stroke="#d7e0ec"/><text x="220" y="254" fill="#12355b">&lt;ul&gt;</text>
+    <rect x="310" y="220" width="120" height="56" rx="8" fill="#edf2f7" stroke="#d7e0ec"/><text x="370" y="254" fill="#12355b">&lt;table&gt;</text>
+    <rect x="460" y="220" width="120" height="56" rx="8" fill="#edf2f7" stroke="#d7e0ec"/><text x="520" y="254" fill="#12355b">&lt;figure&gt;</text>
+  </g>
+</svg>

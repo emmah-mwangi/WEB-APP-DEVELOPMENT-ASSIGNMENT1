@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Web 4 symbiotic metaverse</title>
+  <desc id="desc">Web 4.0 envisions ambient intelligence, AR, VR, IoT, and AI assistants.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Web 4.0: Symbiotic Ambient Web</text>
+  <circle cx="350" cy="178" r="62" fill="#12355b"/>
+  <text x="350" y="185" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#fff">Web 4.0</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#12355b" text-anchor="middle">
+    <rect x="78" y="115" width="132" height="44" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="144" y="143">AI Agents</text>
+    <rect x="78" y="226" width="132" height="44" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="144" y="254">IoT</text>
+    <rect x="490" y="115" width="132" height="44" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="556" y="143">AR / VR</text>
+    <rect x="490" y="226" width="132" height="44" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="556" y="254">Edge</text>
+  </g>
+  <path d="M210 137 H290 M210 248 L302 211 M410 137 H490 M398 211 L490 248" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>
