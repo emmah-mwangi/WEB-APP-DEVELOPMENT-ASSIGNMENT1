@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Future of web servers</title>
+  <desc id="desc">Future web server ideas including edge computing, HTTP/3, automation, and green data centers.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Future of Web Servers</text>
+  <g transform="translate(284 112)">
+    <circle cx="66" cy="66" r="58" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="3"/>
+    <rect x="37" y="34" width="58" height="68" rx="8" fill="#12355b"/>
+    <rect x="49" y="48" width="34" height="7" rx="3" fill="#dbeafe"/>
+    <rect x="49" y="65" width="34" height="7" rx="3" fill="#dbeafe"/>
+    <rect x="49" y="82" width="34" height="7" rx="3" fill="#dbeafe"/>
+    <circle cx="88" cy="51" r="4" fill="#16a34a"/>
+    <circle cx="88" cy="68" r="4" fill="#f59e0b"/>
+    <circle cx="88" cy="85" r="4" fill="#16a34a"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#12355b">
+    <rect x="72" y="120" width="142" height="58" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="143" y="154" text-anchor="middle">Edge Compute</text>
+    <rect x="72" y="222" width="142" height="58" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="143" y="256" text-anchor="middle">HTTP/3 + QUIC</text>
+    <rect x="486" y="120" width="142" height="58" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="557" y="154" text-anchor="middle">Automation</text>
+    <rect x="486" y="222" width="142" height="58" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="557" y="256" text-anchor="middle">Green Hosting</text>
+  </g>
+  <path d="M214 149 H283 M214 251 H306 M418 149 H486 M394 251 H486" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="350" cy="178" r="86" fill="none" stroke="#c2415d" stroke-width="3" stroke-dasharray="8 9"/>
+  <path d="M350 92 C421 98 461 139 466 179" fill="none" stroke="#12355b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M454 162 L466 181 L475 159" fill="none" stroke="#12355b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP response cycle</title>
+  <desc id="desc">A browser sends an HTTP request to a web server and receives an HTTP response.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">HTTP Request and Response Cycle</text>
+  <g transform="translate(70 126)">
+    <rect width="150" height="104" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <rect x="20" y="22" width="110" height="15" rx="7" fill="#12355b"/>
+    <rect x="20" y="50" width="72" height="10" rx="5" fill="#c2415d"/>
+    <rect x="20" y="72" width="94" height="10" rx="5" fill="#526174"/>
+    <text x="75" y="134" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#12355b">Client Browser</text>
+  </g>
+  <g transform="translate(478 111)">
+    <rect width="145" height="130" rx="8" fill="#15263b"/>
+    <rect x="22" y="22" width="101" height="22" rx="4" fill="#dbeafe"/>
+    <rect x="22" y="58" width="101" height="22" rx="4" fill="#dbeafe"/>
+    <rect x="22" y="94" width="101" height="22" rx="4" fill="#dbeafe"/>
+    <circle cx="112" cy="33" r="4" fill="#16a34a"/>
+    <circle cx="112" cy="69" r="4" fill="#16a34a"/>
+    <circle cx="112" cy="105" r="4" fill="#f59e0b"/>
+    <text x="72" y="164" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#12355b">Web Server</text>
+  </g>
+  <path d="M230 147 C310 84 397 84 468 147" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M448 131 L470 148 L442 157" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="350" y="115" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#c2415d">HTTP Request</text>
+  <path d="M468 217 C390 284 309 284 230 217" fill="none" stroke="#12355b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M250 233 L228 216 L256 207" fill="none" stroke="#12355b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="350" y="278" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#12355b">HTTP Response: HTML, CSS, JS, Images</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#526174">
+    <text x="308" y="165">1. Parse URL</text>
+    <text x="308" y="190">2. Find resource</text>
+    <text x="308" y="215">3. Send status + body</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Apache web server</title>
+  <desc id="desc">A web server software panel showing Apache HTTP Server modules and request handling.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Apache HTTP Server</text>
+  <g transform="translate(74 99)">
+    <rect x="0" y="0" width="552" height="190" rx="8" fill="#15263b"/>
+    <rect x="0" y="0" width="552" height="34" rx="8" fill="#c2415d"/>
+    <text x="24" y="23" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">httpd.conf</text>
+    <g font-family="Consolas, monospace" font-size="15" fill="#dbeafe">
+      <text x="34" y="72">Listen 80</text>
+      <text x="34" y="101">DocumentRoot "/var/www/html"</text>
+      <text x="34" y="130">LoadModule ssl_module modules/mod_ssl.so</text>
+      <text x="34" y="159">VirtualHost example.com</text>
+    </g>
+    <g transform="translate(376 56)">
+      <rect width="128" height="94" rx="8" fill="#edf2f7"/>
+      <text x="64" y="27" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#12355b">Modules</text>
+      <rect x="22" y="43" width="84" height="10" rx="5" fill="#12355b"/>
+      <rect x="22" y="61" width="62" height="10" rx="5" fill="#c2415d"/>
+      <rect x="22" y="79" width="76" height="10" rx="5" fill="#526174"/>
+    </g>
+  </g>
+  <path d="M92 250 H608" stroke="#d7e0ec" stroke-width="2"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#526174">
+    <text x="122" y="277">Configurable</text>
+    <text x="282" y="277">Modular</text>
+    <text x="420" y="277">Reliable</text>
+    <text x="542" y="277">Open Source</text>
+  </g>
+</svg>

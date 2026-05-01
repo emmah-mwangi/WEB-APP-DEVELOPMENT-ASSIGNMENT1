@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud hosting architecture</title>
+  <desc id="desc">A cloud hosting layout with users, CDN, load balancer, web servers, application service, and database.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Cloud Hosting Architecture</text>
+  <g transform="translate(61 150)" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#12355b">
+    <circle cx="30" cy="20" r="16" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <circle cx="74" cy="20" r="16" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <circle cx="52" cy="58" r="16" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="52" y="100" text-anchor="middle" font-size="15">Users</text>
+  </g>
+  <g transform="translate(182 132)">
+    <path d="M34 60 C9 58 2 31 23 21 C28 5 49 2 61 14 C77 6 101 17 99 39 C116 41 121 62 104 72 H34 Z" fill="#edf2f7" stroke="#9fb0c5" stroke-width="2"/>
+    <text x="62" y="54" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#12355b">CDN</text>
+  </g>
+  <g transform="translate(340 128)">
+    <rect width="128" height="70" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="64" y="31" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#12355b">Load</text>
+    <text x="64" y="52" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#12355b">Balancer</text>
+  </g>
+  <g transform="translate(527 96)">
+    <rect width="92" height="46" rx="7" fill="#12355b"/>
+    <rect y="68" width="92" height="46" rx="7" fill="#12355b"/>
+    <rect y="136" width="92" height="46" rx="7" fill="#12355b"/>
+    <g fill="#dbeafe">
+      <rect x="14" y="15" width="50" height="8" rx="4"/>
+      <rect x="14" y="83" width="50" height="8" rx="4"/>
+      <rect x="14" y="151" width="50" height="8" rx="4"/>
+    </g>
+    <text x="46" y="214" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#12355b">Web Servers</text>
+  </g>
+  <ellipse cx="405" cy="264" rx="58" ry="17" fill="#c2415d"/>
+  <rect x="347" y="264" width="116" height="40" fill="#c2415d"/>
+  <ellipse cx="405" cy="304" rx="58" ry="17" fill="#9f2d48"/>
+  <text x="405" y="291" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Database</text>
+  <path d="M139 181 H181 M282 168 H338 M468 163 H526 M405 198 V246" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M166 170 L185 181 L166 192 M322 157 L341 168 L322 179 M510 152 L529 163 L510 174 M393 230 L405 249 L417 230" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
