@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Security zones in multitier systems</title>
+  <desc id="desc">Traffic moves from the internet into a DMZ, then private application and data zones separated by firewalls.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Security in Multitier Systems</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="54" y="100" width="115" height="170" rx="8" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="2"/>
+    <text x="112" y="128" text-anchor="middle" font-size="17" font-weight="700" fill="#12355b">Internet</text>
+    <circle cx="112" cy="181" r="30" fill="#ffffff" stroke="#12355b" stroke-width="4"/>
+    <path d="M84 181 H140 M112 151 C129 168 129 194 112 211 M112 151 C95 168 95 194 112 211" fill="none" stroke="#12355b" stroke-width="3"/>
+
+    <rect x="197" y="100" width="125" height="170" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="260" y="128" text-anchor="middle" font-size="17" font-weight="700" fill="#12355b">DMZ</text>
+    <rect x="226" y="159" width="68" height="46" rx="6" fill="#12355b"/>
+    <text x="260" y="187" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Web</text>
+
+    <rect x="350" y="100" width="132" height="170" rx="8" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+    <text x="416" y="128" text-anchor="middle" font-size="17" font-weight="700" fill="#12355b">Private App</text>
+    <rect x="382" y="153" width="68" height="58" rx="6" fill="#12355b"/>
+    <text x="416" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">API</text>
+    <text x="416" y="197" text-anchor="middle" font-size="12" fill="#dbeafe">logic</text>
+
+    <rect x="510" y="100" width="136" height="170" rx="8" fill="#fee2e2" stroke="#c2415d" stroke-width="2"/>
+    <text x="578" y="128" text-anchor="middle" font-size="17" font-weight="700" fill="#12355b">Data Zone</text>
+    <ellipse cx="578" cy="162" rx="40" ry="13" fill="#c2415d"/>
+    <rect x="538" y="162" width="80" height="48" fill="#c2415d"/>
+    <ellipse cx="578" cy="210" rx="40" ry="13" fill="#9f2d48"/>
+    <text x="578" y="191" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">DB</text>
+  </g>
+  <g stroke="#c2415d" stroke-width="6" stroke-linecap="round">
+    <path d="M183 111 V259"/>
+    <path d="M336 111 V259"/>
+    <path d="M496 111 V259"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#c2415d">
+    <text x="183" y="292" text-anchor="middle">Firewall</text>
+    <text x="336" y="292" text-anchor="middle">Firewall</text>
+    <text x="496" y="292" text-anchor="middle">Firewall</text>
+  </g>
+  <path d="M170 185 H194 M323 185 H347 M483 185 H507" stroke="#12355b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M184 175 L199 185 L184 195 M337 175 L352 185 L337 195 M497 175 L512 185 L497 195" fill="none" stroke="#12355b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

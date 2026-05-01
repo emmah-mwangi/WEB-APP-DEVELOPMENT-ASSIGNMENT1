@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Challenges of multitier architecture</title>
+  <desc id="desc">Common multitier challenges include latency, tracing, versioning, cost, and coordination.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Drawbacks and Challenges</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="72" y="104" width="190" height="66" rx="8" fill="#fee2e2" stroke="#c2415d" stroke-width="2"/>
+    <text x="167" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#12355b">Network Latency</text>
+    <text x="167" y="153" text-anchor="middle" font-size="14" fill="#2f3b4d">More hops per request</text>
+
+    <rect x="438" y="104" width="190" height="66" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="533" y="132" text-anchor="middle" font-size="18" font-weight="700" fill="#12355b">Versioning</text>
+    <text x="533" y="153" text-anchor="middle" font-size="14" fill="#2f3b4d">APIs need contracts</text>
+
+    <rect x="72" y="232" width="190" height="66" rx="8" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="2"/>
+    <text x="167" y="260" text-anchor="middle" font-size="18" font-weight="700" fill="#12355b">Tracing</text>
+    <text x="167" y="281" text-anchor="middle" font-size="14" fill="#2f3b4d">Debug across tiers</text>
+
+    <rect x="438" y="232" width="190" height="66" rx="8" fill="#edf2f7" stroke="#9fb0c5" stroke-width="2"/>
+    <text x="533" y="260" text-anchor="middle" font-size="18" font-weight="700" fill="#12355b">Cost</text>
+    <text x="533" y="281" text-anchor="middle" font-size="14" fill="#2f3b4d">More infrastructure</text>
+
+    <path d="M350 113 L415 226 H285 Z" fill="#12355b"/>
+    <text x="350" y="191" text-anchor="middle" font-size="44" font-weight="700" fill="#ffffff">!</text>
+    <text x="350" y="253" text-anchor="middle" font-size="19" font-weight="700" fill="#12355b">Coordination</text>
+    <text x="350" y="276" text-anchor="middle" font-size="14" fill="#2f3b4d">Clear ownership and tooling are essential</text>
+  </g>
+</svg>

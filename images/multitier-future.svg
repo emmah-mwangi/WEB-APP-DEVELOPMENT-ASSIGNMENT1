@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Future of multitier architecture</title>
+  <desc id="desc">Future architectures combine edge computing, microservices, serverless functions, events, and managed data platforms.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Microservices and Beyond</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="70" y="112" width="125" height="64" rx="8" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="2"/>
+    <text x="133" y="140" text-anchor="middle" font-size="17" font-weight="700" fill="#12355b">Edge Logic</text>
+    <text x="133" y="160" text-anchor="middle" font-size="13" fill="#526174">near users</text>
+
+    <rect x="287" y="94" width="126" height="64" rx="8" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+    <text x="350" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#12355b">Microservices</text>
+    <text x="350" y="142" text-anchor="middle" font-size="13" fill="#526174">small APIs</text>
+
+    <rect x="505" y="112" width="125" height="64" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="568" y="140" text-anchor="middle" font-size="17" font-weight="700" fill="#12355b">Serverless</text>
+    <text x="568" y="160" text-anchor="middle" font-size="13" fill="#526174">functions</text>
+
+    <rect x="178" y="238" width="126" height="64" rx="8" fill="#fee2e2" stroke="#c2415d" stroke-width="2"/>
+    <text x="241" y="266" text-anchor="middle" font-size="17" font-weight="700" fill="#12355b">Event Bus</text>
+    <text x="241" y="286" text-anchor="middle" font-size="13" fill="#526174">streams queues</text>
+
+    <rect x="396" y="238" width="126" height="64" rx="8" fill="#edf2f7" stroke="#9fb0c5" stroke-width="2"/>
+    <text x="459" y="266" text-anchor="middle" font-size="17" font-weight="700" fill="#12355b">Managed Data</text>
+    <text x="459" y="286" text-anchor="middle" font-size="13" fill="#526174">cloud storage</text>
+
+    <circle cx="350" cy="202" r="34" fill="#12355b"/>
+    <text x="350" y="196" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Service</text>
+    <text x="350" y="215" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Mesh</text>
+  </g>
+  <path d="M198 143 H283 M414 126 H501 M326 230 L276 238 M374 230 L424 238 M350 159 V164" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M269 131 L289 143 L269 155 M487 114 L507 126 L487 138 M286 226 L270 241 M414 226 L430 241 M338 162 L350 174 L362 162" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
