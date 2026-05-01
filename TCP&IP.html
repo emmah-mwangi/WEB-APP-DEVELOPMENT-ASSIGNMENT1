@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP/IP - Internet Terminology</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script defer src="JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>Internet Terminology</h1>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">&#9776;</button>
+        </div>
+        <nav id="site-nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="WorldWideWeb.html">World Wide Web</a></li>
+                <li><a href="TCP%26IP.html" class="active" aria-current="page">TCP/IP</a></li>
+                <li><a href="WebBrowsers.html">Web Browsers</a></li>
+                <li><a href="WebServers.html">Web Servers</a></li>
+                <li><a href="URL.html">URL</a></li>
+                <li><a href="DomainName.html">Domain Name</a></li>
+                <li><a href="HTTP.html">HTTP</a></li>
+                <li><a href="Intranet.html">Intranet</a></li>
+                <li><a href="Extranet.html">Extranet</a></li>
+                <li><a href="MultitierArchitecture.html">Multitier Architecture</a></li>
+                <li><a href="FileTransferProtocol.html">FTP</a></li>
+                <li><a href="HTML.html">HTML</a></li>
+                <li><a href="Web%20versions.html">Web Versions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="term-article">
+            <h2>Transmission Control Protocol / Internet Protocol (TCP/IP)</h2>
+
+            <div class="section-block">
+                <h3>1. Introduction to the Protocol Suite</h3>
+                <p>TCP/IP, short for Transmission Control Protocol / Internet Protocol, is the foundational communication protocol suite of the internet and most modern networks. It comprises a set of rules that define how data is packaged, addressed, transmitted, routed, and received between devices, regardless of their underlying hardware. Unlike many earlier proprietary networking systems, TCP/IP is open, vendor‑neutral, and designed to work over heterogeneous networks. Its layered architecture abstracts the complexities of physical transmission, allowing applications to send data without worrying about the underlying cables or radio waves. The suite was developed in the 1970s by DARPA, with Vint Cerf and Bob Kahn often credited as the “fathers of the internet” for their pioneering work. TCP/IP was adopted as the standard for ARPANET on January 1, 1983, an event known as “Flag Day,” and it has been the backbone of internet growth ever since. The design’s resilience ensures that if one part of the network fails, data packets can be rerouted dynamically, a feature crucial for military‑grade robustness. Today, every device connected to the internet—from smartphones to supercomputers—speaks TCP/IP. It is not a single protocol but a stack of protocols that work in concert, each responsible for a specific aspect of communication. Understanding TCP/IP is essential for anyone working in networking, cybersecurity, or web development, as it underpins all data exchange on the global net.</p>
+                <img src="https://placehold.co/700x350?text=TCP%2FIP+Protocol+Suite" alt="TCP/IP protocol suite overview" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>2. The Four‑Layer Model</h3>
+                <p>TCP/IP is conceptually organised into four layers, which simplify network design and troubleshooting: the Application layer, Transport layer, Internet layer, and Network Access layer. The Application layer includes high‑level protocols like HTTP, FTP, SMTP, and DNS, enabling user‑facing services. The Transport layer is where TCP and UDP reside; TCP provides reliable, connection‑oriented delivery with error checking and flow control, while UDP offers a connectionless, lightweight alternative for latency‑sensitive applications. The Internet layer, anchored by the Internet Protocol (IP), handles logical addressing and routing, encapsulating transport‑layer segments into packets (datagrams) and forwarding them across interconnected networks. The Network Access layer corresponds to the physical hardware and data‑link technologies such as Ethernet, Wi‑Fi, and fibre optics, managing the actual transmission of raw bits over a medium. Some models expand this into five layers by splitting the Network Access layer into Data‑Link and Physical, aligning with the OSI model. This layered approach means that changes in one layer do not break the others; for example, a web application using HTTP doesn’t care whether the underlying link is Ethernet or 5G. The modularity also fosters innovation—new application protocols can be introduced without re‑engineering the routing infrastructure. Each layer adds its own header (and sometimes trailer) to the data from the layer above, a process known as encapsulation. When the data reaches its destination, the process is reversed, and headers are stripped away until the original message emerges. This elegant stack is the reason the internet can scale globally and support an ever‑growing variety of applications.</p>
+                <img src="https://placehold.co/700x350?text=TCP%2FIP+Four+Layer+Model" alt="TCP/IP four-layer model diagram" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>3. The Internet Protocol (IP) – Addressing and Routing</h3>
+                <p>The Internet Protocol (IP) is the workhorse of the internet layer, responsible for delivering packets from source to destination based on IP addresses. Every device on a TCP/IP network is identified by a unique IP address, which in IPv4 is a 32‑bit number (e.g., 192.168.1.1) and in IPv6 is a 128‑bit hexadecimal string, vastly expanding the address space. IP is connectionless and provides a best‑effort delivery service, meaning it does not guarantee packet order, reliability, or even delivery—that job is left to higher layers such as TCP. Routers use routing tables and protocols like OSPF or BGP to determine the optimal path for each packet, hopping from one network to the next. IP also supports fragmentation, breaking large packets into smaller fragments when they need to traverse networks with different maximum transmission units. The IP header contains source and destination addresses, a time‑to‑live (TTL) field to prevent infinite looping, and a protocol field that indicates which transport‑layer protocol (e.g., TCP, UDP) is encapsulated. Subnetting and Classless Inter‑Domain Routing (CIDR) allow efficient allocation and summarisation of IP address blocks. Network Address Translation (NAT) has been widely deployed to allow multiple devices to share a single public IP address, extending the life of IPv4. The transition to IPv6 is ongoing, driven by the exhaustion of IPv4 addresses, and it brings features like simplified header structure, built‑in security through IPsec, and no need for NAT. IP’s simplicity and universality make it the glue that binds the internet into a single, logical network despite physical diversity.</p>
+                <img src="https://placehold.co/700x350?text=IP+Routing+Across+Networks" alt="IP routing diagram" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>4. Transmission Control Protocol (TCP) – Reliability</h3>
+                <p>TCP is a connection‑oriented transport protocol that provides guaranteed, in‑order delivery of a stream of bytes between applications. It establishes a virtual connection using a three‑way handshake (SYN, SYN‑ACK, ACK) before data transmission begins, ensuring both endpoints are ready. Once connected, TCP uses sequence numbers and acknowledgements to track every byte sent; if an acknowledgement is not received within a timeout, the data is retransmitted. Flow control, managed by a sliding window mechanism, prevents a fast sender from overwhelming a slow receiver. Congestion control algorithms, such as Reno, CUBIC, and BBR, adjust the transmission rate based on network conditions to avoid gridlock. TCP also performs error checking using a checksum, discarding corrupted segments and requesting retransmission. The protocol gracefully terminates connections with a four‑way FIN/ACK exchange, ensuring no data is lost. These features make TCP ideal for applications that require absolute reliability, like web browsing, email, and file transfers. However, the overhead of connection setup, ordering, and retransmission can add latency, making TCP less suitable for real‑time streaming of audio or video, where dropping a packet is preferable to the delay of retransmission. Despite the rise of modern alternatives like QUIC, TCP remains the dominant transport protocol, carrying the vast majority of internet traffic today.</p>
+                <img src="https://placehold.co/700x350?text=TCP+Three+Way+Handshake" alt="TCP three-way handshake diagram" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>5. User Datagram Protocol (UDP) – Speed Over Guarantees</h3>
+                <p>UDP is TCP’s simpler, connectionless sibling in the transport layer, offering minimal overhead and no built‑in reliability. It sends datagrams without establishing a connection first, simply packaging the data with source and destination port numbers and firing it off across the network. Because UDP does not implement acknowledgements, retransmission, or ordering, it is significantly faster and consumes fewer resources. This makes UDP the protocol of choice for latency‑sensitive applications where occasional packet loss is acceptable, such as Voice over IP (VoIP), live video streaming, online gaming, and DNS queries. The lack of flow control means an application can potentially flood the network, but many UDP‑based applications implement their own minimal reliability mechanisms when needed. UDP also supports multicast and broadcast transmissions, allowing a single packet to reach multiple recipients efficiently—something TCP cannot do natively. In recent years, UDP has gained even more prominence as the foundation for the QUIC protocol, developed by Google, which layers encryption and optional reliability on top of UDP to improve web performance. The checksum field in the UDP header is optional in IPv4 but mandatory in IPv6, providing at least some data integrity verification. Stateless protocols like DHCP and SNMP also rely on UDP, as the short, infrequent messages do not justify the overhead of a TCP session. Ultimately, UDP exemplifies the “dumb network, smart end‑points” principle, leaving complexity to the application layer.</p>
+                <img src="https://placehold.co/700x350?text=UDP+vs+TCP+Comparison" alt="UDP vs TCP comparison" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>6. Key Application‑Layer Protocols in the Suite</h3>
+                <p>Above the transport layer, the TCP/IP suite includes numerous application‑layer protocols that enable specific internet services. HTTP (Hypertext Transfer Protocol) is the backbone of the World Wide Web, facilitating the request and transfer of hypertext documents, typically over TCP port 80 or 443 for HTTPS. SMTP (Simple Mail Transfer Protocol) handles the transmission of email between mail servers, while POP3 and IMAP allow users to retrieve messages. FTP (File Transfer Protocol) uses two channels—one for commands and one for data—to transfer files, but it has been largely supplanted by more secure alternatives like SFTP. DNS (Domain Name System) is a critical application‑layer protocol that translates human‑readable domain names into IP addresses, operating primarily over UDP on port 53. Telnet and SSH provide remote terminal access, with SSH adding strong encryption. DHCP (Dynamic Host Configuration Protocol) automates IP address assignment when a device connects to a network. These protocols demonstrate the flexibility of the TCP/IP stack; each one is designed for a specific purpose and can be updated independently. The well‑known port numbers (0–1023) are registered with IANA to ensure that clients know which port to contact for a given service. The sheer variety of application protocols built on TCP/IP shows how a unified transport and internet layer can support an incredibly diverse range of communication patterns. As new needs arise, new application protocols can be devised without altering the fundamental internet infrastructure.</p>
+                <img src="https://placehold.co/700x350?text=Application+Layer+Protocols" alt="Common TCP/IP application protocols" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>7. IP Addressing and Subnetting in Depth</h3>
+                <p>IP addresses are hierarchical, consisting of a network portion and a host portion, with the division defined by a subnet mask. In IPv4, a subnet mask like 255.255.255.0 indicates that the first three octets identify the network, leaving the last octet for hosts. Subnetting allows network administrators to partition a large address block into smaller, more manageable sub‑networks, improving security and reducing broadcast traffic. CIDR notation (e.g., 192.168.1.0/24) compactly represents the network address and the number of bits used for the network prefix. Variable Length Subnet Masking (VLSM) enables even finer control by allowing subnets of different sizes within the same network. Private IP address ranges (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) are reserved for internal networks and are not routable on the public internet; NAT translates them to a public address for external communication. IPv6 addresses, written as eight groups of four hexadecimal digits, eliminate the need for NAT with their vast address space and support auto‑configuration via SLAAC. IP addressing also supports special types like loopback (127.0.0.1), link‑local, and multicast, each serving specific networking roles. Understanding IP addressing is crucial for configuring routers, firewalls, and servers, as well as for troubleshooting connectivity issues. The migration to IPv6, while slow, is critical for the future growth of the internet and the Internet of Things.</p>
+                <img src="https://placehold.co/700x350?text=IP+Subnetting+Visual" alt="IP subnetting visual" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>8. Evolution, Security, and the Future</h3>
+                <p>TCP/IP was conceived in an era of trust among researchers, and as a result, security was not a primary design goal—leading to vulnerabilities like IP spoofing, TCP session hijacking, and DDoS amplification. Over time, security mechanisms have been retrofitted or overlayed: IPsec provides encryption and authentication at the internet layer, while TLS/SSL secures communication at the application or transport layer. The development of HTTP/3, built on QUIC, addresses many shortcomings of TCP, such as head‑of‑line blocking, by using multiplexed streams over UDP with integrated TLS 1.3. Software‑defined networking (SDN) and network function virtualisation (NFV) are changing how TCP/IP networks are managed, moving control from distributed routers to centralised controllers. The proliferation of IoT devices is pushing IPv6 adoption and sparking research into lightweight IP stacks for constrained devices, such as 6LoWPAN. Despite calls for a “clean‑slate” redesign, the enormous installed base and the adaptability of TCP/IP ensure its continued dominance for the foreseeable future. Multicast and anycast routing techniques are being refined to support massive live streaming and edge computing. Efforts to improve latency, such as L4S (Low Latency, Low Loss, Scalable Throughput), are being standardised within the IETF. As cyber threats evolve, secure DNS (DNS over HTTPS/TLS) and encrypted SNI are being deployed to protect user privacy. TCP/IP’s four‑decade reign is a testament to its robust, flexible architecture, and it will continue to evolve to meet the demands of a hyper‑connected world.</p>
+                <img src="https://placehold.co/700x350?text=Future+Networking+Concepts" alt="Future networking with TCP/IP" class="section-image">
+            </div>
+
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3QhU9jd03a4" title="How TCP/IP Works" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Internet Terminology Deep Dive. All educational content.</p>
+        </div>
+    </footer>
+</body>
+</html>

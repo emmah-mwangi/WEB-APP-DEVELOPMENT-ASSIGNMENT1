@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Browsers - Internet Terminology</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script defer src="JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>Internet Terminology</h1>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">&#9776;</button>
+        </div>
+        <nav id="site-nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="WorldWideWeb.html">World Wide Web</a></li>
+                <li><a href="TCP%26IP.html">TCP/IP</a></li>
+                <li><a href="WebBrowsers.html" class="active" aria-current="page">Web Browsers</a></li>
+                <li><a href="WebServers.html">Web Servers</a></li>
+                <li><a href="URL.html">URL</a></li>
+                <li><a href="DomainName.html">Domain Name</a></li>
+                <li><a href="HTTP.html">HTTP</a></li>
+                <li><a href="Intranet.html">Intranet</a></li>
+                <li><a href="Extranet.html">Extranet</a></li>
+                <li><a href="MultitierArchitecture.html">Multitier Architecture</a></li>
+                <li><a href="FileTransferProtocol.html">FTP</a></li>
+                <li><a href="HTML.html">HTML</a></li>
+                <li><a href="Web%20versions.html">Web Versions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="term-article">
+            <h2>Web Browsers</h2>
+            <div class="section-block">
+                <h3>1. What is a Web Browser?</h3>
+                <p>A web browser is a software application that retrieves, renders, and displays content from the World Wide Web, enabling users to interact with web pages. The browser acts as the client in the client‑server model, sending HTTP/HTTPS requests to web servers and interpreting the responses, which typically include HTML, CSS, and JavaScript. Modern browsers are sophisticated platforms that combine layout engines, JavaScript interpreters, networking stacks, and security sandboxes to deliver rich, interactive experiences. Beyond simply displaying web pages, browsers support extensions, developer tools, and progressive web app capabilities, making them a cornerstone of personal computing. The first graphical browser, Mosaic, launched in 1993, revolutionised the web by making it visual and easy to navigate, catalysing the internet boom. Today’s major browsers—Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge—are built on one of three main engine families: Blink, Gecko, or WebKit. Browsers are free to download and are available on virtually every platform, including desktops, smartphones, tablets, and even smart TVs. They also handle security by managing HTTPS certificates, blocking malicious sites, and sandboxing tab processes to prevent cross‑site attacks. The user interface typically includes an address bar, navigation buttons, tabs, and bookmark managers, all designed for efficient information retrieval. Without a browser, the web would remain a raw stream of code; the browser brings it to life for the end user.</p>
+                <img src="https://placehold.co/700x350?text=Web+Browser+Interface" alt="Web browser interface illustration" class="section-image">
+            </div>
+            <div class="section-block">
+                <h3>2. Brief History – From WorldWideWeb to Chrome</h3>
+                <p>The very first browser, named WorldWideWeb (later Nexus), was built by Tim Berners‑Lee in 1990 on a NeXT computer, and it was both a browser and an editor. Mosaic, developed by the National Center for Supercomputing Applications (NCSA) in 1993, brought inline images and a point‑and‑click interface, making the web accessible to non‑technical users. Netscape Navigator, released in 1994, quickly dominated the market and introduced innovations like on‑the‑fly page rendering and JavaScript. Microsoft entered the “browser wars” with Internet Explorer (IE) in 1995, bundling it with Windows, which led to a near‑monopoly by the late 1990s. The open‑source Mozilla project eventually led to Firefox in 2004, offering a lean, standards‑compliant alternative that broke IE’s stranglehold. Apple’s Safari, launched in 2003, and Google’s Chrome, launched in 2008 with a focus on speed, security, and a minimal interface, reshaped the competitive landscape. Opera, a niche but innovative browser, pioneered features like tabbed browsing and speed dial, many of which were later adopted by the mainstream. Chrome’s multi‑process architecture and V8 JavaScript engine set new performance benchmarks and quickly made it the most popular browser globally. Microsoft eventually abandoned its proprietary EdgeHTML engine and rebuilt Edge on Chromium in 2020, further consolidating the Blink engine’s dominance. Today, the browser ecosystem is a diverse but interoperable landscape where continuous updates and open standards (driven by groups like W3C and WHATWG) ensure compatibility and security.</p>
+                <img src="https://placehold.co/700x350?text=Browser+History+Timeline" alt="Timeline of web browser evolution" class="section-image">
+            </div>
+            <div class="section-block">
+                <h3>3. Core Components of a Browser</h3>
+                <p>At its heart, a browser consists of several key components that work together to fetch and present web content. The user interface includes the address bar, back/forward buttons, menu, and bookmarks, although these vary between browsers. The browser engine acts as a liaison between the UI and the rendering engine, coordinating high‑level actions. The rendering engine (like Blink, Gecko, or WebKit) parses HTML and CSS, constructing the Document Object Model (DOM) tree and the render tree, then calculating layout, painting, and compositing to put pixels on the screen. The networking component handles HTTP requests and responses, managing sockets, DNS resolution, and caching, often using its own built‑in network library. A JavaScript engine (such as V8, SpiderMonkey, or JavaScriptCore) interprets and executes JavaScript code, with modern engines using just‑in‑time (JIT) compilation for near‑native performance. The data storage subsystem provides mechanisms like cookies, localStorage, IndexedDB, and service worker caches for stateful web applications. The security sandbox isolates each tab in its own process, limiting the damage from a compromised renderer and enforcing the same‑origin policy. Platform integration components allow the browser to access native OS features like notifications, file dialogs, and hardware acceleration. This modular architecture allows continuous improvement of individual parts—for example, a new CSS feature can be added to the rendering engine without touching the JavaScript engine—ensuring browsers can keep pace with web standards.</p>
+                <img src="https://placehold.co/700x350?text=Browser+Internal+Components" alt="Diagram of browser internal components" class="section-image">
+            </div>
+            <div class="section-block">
+                <h3>4. Rendering Engines and How Pages Are Displayed</h3>
+                <p>The rendering engine is arguably the most critical piece of a browser, tasked with transforming raw code into a visually appealing, interactive layout. The process begins with parsing HTML into a DOM tree, where each tag becomes a node, and CSS into a CSSOM tree, resolving styles. The two are combined into a render tree that contains only the visible elements with their computed styles. Then the engine performs layout (also called reflow), calculating the exact position and size of each node on the screen. Next comes painting, where the engine fills pixels with colors, borders, shadows, and text, producing multiple layers. Finally, compositing fires these layers onto the screen in the correct order, often offloaded to the GPU for smooth animations. Browsers optimise this critical path by prioritising content that is in the viewport, avoiding redundant calculations, and processing incremental changes. Features like requestAnimationFrame and the CSS contain property give developers control over repaint and reflow costs. The choice of rendering engine—Blink (Chrome, Edge), WebKit (Safari), or Gecko (Firefox)—can lead to subtle differences in how a page looks, though standards compliance minimises discrepancies. Modern engines also support hardware‑accelerated canvas, WebGL for 3D graphics, and WebGPU, moving the web closer to native application performance. In essence, the rendering engine is a real‑time interpreter that turns declarative code into a dynamic, visual experience.</p>
+                <img src="https://placehold.co/700x350?text=Critical+Rendering+Path" alt="Critical rendering path flowchart" class="section-image">
+            </div>
+            <div class="section-block">
+                <h3>5. JavaScript Engines and Dynamic Behaviour</h3>
+                <p>JavaScript engines are the powerhouses that execute the programming logic of web pages, enabling everything from simple form validation to complex single‑page applications. An engine takes raw JavaScript source code, parses it into an Abstract Syntax Tree (AST), and then either interprets it or compiles it into bytecode or machine code. V8, developed by Google for Chrome, pioneered the use of JIT compilation, which continuously profiled code and recompiled hot paths to highly optimised machine instructions. SpiderMonkey (Firefox) and JavaScriptCore (Safari) have adopted similar techniques, resulting in an arms race that has made JavaScript thousands of times faster than a decade ago. Garbage collectors in these engines automatically manage memory, freeing up objects that are no longer reachable, though developers must still avoid memory leaks by detaching event listeners. Web APIs like the DOM, fetch, Web Workers, and WebAssembly extend the engine’s capabilities beyond pure ECMAScript. The introduction of WebAssembly (Wasm) allows code written in languages like C++ or Rust to run at near‑native speed, opening the web to computationally intensive tasks like video editing and 3D gaming. Modern engines also support advanced optimisations such as speculative inlining and hidden classes, but these can be deoptimised if code patterns change unexpectedly. Strict mode and module syntax (ESM) are now universal, encouraging cleaner, more secure code. In summary, the JavaScript engine is what transforms a static HTML page into a fully interactive application, and its performance directly impacts the user experience.</p>
+                <img src="https://placehold.co/700x350?text=JavaScript+Engine+Pipeline" alt="JavaScript engine compilation pipeline" class="section-image">
+            </div>
+            <div class="section-block">
+                <h3>6. Security and Privacy Features</h3>
+                <p>Modern browsers incorporate a vast array of security and privacy mechanisms to protect users from an ever‑growing landscape of online threats. The same‑origin policy is a fundamental rule that prevents a script from one origin from accessing data in another, thwarting cross‑site request forgery (CSRF) and data theft. Content Security Policy (CSP) allows site owners to specify which sources of scripts, styles, and media are allowed, mitigating cross‑site scripting (XSS) attacks. Browsers mark HTTP sites as “not secure” and favour HTTPS, enforcing HTTP Strict Transport Security (HSTS) and certificate transparency. Sandboxing isolates each tab’s rendering process, so even if an attacker compromises one tab, sensitive data in others remains protected. Private or incognito mode prevents the browser from saving browsing history, cookies, or form data to the local disk, though it does not hide the user’s activity from their ISP or employer. Tracking protection features, like Firefox’s Enhanced Tracking Protection and Safari’s Intelligent Tracking Prevention, use blocklists and heuristics to limit third‑party cookies and fingerprinting scripts. Password managers integrated into browsers help users generate and store strong, unique passwords, but they also raise concerns about a single point of failure. Site isolation, first introduced in Chrome, ensures pages from different domains are loaded in separate processes entirely. Federated learning of cohorts (FLoC) and the newer Topics API are industry attempts to replace invasive third‑party cookies with privacy‑preserving advertising methods, though they remain controversial.</p>
+                <img src="https://placehold.co/700x350?text=Browser+Security+Sandbox" alt="Browser security sandbox illustration" class="section-image">
+            </div>
+            <div class="section-block">
+                <h3>7. Developer Tools and Web Standards</h3>
+                <p>Every major browser ships with a suite of developer tools that are indispensable for web development and debugging. The elements/inspector panel allows developers to view and modify the DOM and CSS in real time, seeing instant visual feedback. The console provides access to JavaScript error logs and enables live code execution, while the network panel visualises every HTTP request and response with timing, headers, and payloads. Performance and memory profiles help identify bottlenecks, costly reflows, or memory leaks using flame charts and heap snapshots. The storage inspector shows cookies, local storage, indexedDB, and service worker caches, aiding in web application state management. Lighthouse, integrated into Chrome DevTools, audits pages for performance, accessibility, SEO, and best practices, generating actionable reports. Browsers also implement cutting‑edge web standards through feature flags and origin trials, allowing developers to test upcoming APIs before they are finalised. The World Wide Web Consortium (W3C) and Web Hypertext Application Technology Working Group (WHATWG) are the primary bodies that specify these standards, with implementations often driving the standardisation process. Interoperability has improved dramatically thanks to cross‑browser testing initiatives and the “Browser Compatibility” project. These tools lower the barrier to creating accessible, performant, and responsive web applications, making the open web competitive with native platforms.</p>
+                <img src="https://placehold.co/700x350?text=Developer+Tools+Panel" alt="Browser developer tools screenshot" class="section-image">
+            </div>
+            <div class="section-block">
+                <h3>8. The Future of Web Browsers</h3>
+                <p>Browsers are evolving from simple document viewers into full‑fledged application platforms, blurring the line between the web and native operating systems. Progressive Web Applications (PWAs) leverage service workers, manifests, and web app install banners to offer offline support, push notifications, and device‑like experiences. WebAssembly is enabling near‑native performance for games, CAD software, and scientific simulations directly in the browser. WebXR brings virtual reality and augmented reality to the browser, allowing immersive experiences without app store restrictions. The privacy‑centric shift, driven by regulations like GDPR and consumer demand, is pushing browsers to deprecate third‑party cookies and develop new identity‑federated methods. Browser extensions continue to be a powerful tool for customisation, but they are being re‑platformed under Manifest V3, which limits background network requests to improve user privacy. Vertical search integration and AI‑powered features, such as automatic translation, page summarisation, and intelligent autofill, are becoming standard. Google, Mozilla, and Apple are all investing in browser‑based machine learning through Web Neural Network API and TensorFlow.js, enabling on‑device AI inference. The push for ever‑greater performance includes efforts to offload more work to the GPU and to accelerate network protocols with HTTP/3 and QUIC. As the web platform matures, the browser remains the most important software on most devices, and its continued evolution will shape how billions of people learn, work, and connect.</p>
+                <img src="https://placehold.co/700x350?text=Future+Browser+Concept" alt="Futuristic browser concept" class="section-image">
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MHy5kpk1TvA" title="How a web browser works" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Internet Terminology Deep Dive. All educational content.</p>
+        </div>
+    </footer>
+</body>
+</html>

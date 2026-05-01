@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multitier Architecture - Internet Terminology</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script defer src="JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>Internet Terminology</h1>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">&#9776;</button>
+        </div>
+        <nav id="site-nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="WorldWideWeb.html">World Wide Web</a></li>
+                <li><a href="TCP%26IP.html">TCP/IP</a></li>
+                <li><a href="WebBrowsers.html">Web Browsers</a></li>
+                <li><a href="WebServers.html">Web Servers</a></li>
+                <li><a href="URL.html">URL</a></li>
+                <li><a href="DomainName.html">Domain Name</a></li>
+                <li><a href="HTTP.html">HTTP</a></li>
+                <li><a href="Intranet.html">Intranet</a></li>
+                <li><a href="Extranet.html">Extranet</a></li>
+                <li><a href="MultitierArchitecture.html" class="active" aria-current="page">Multitier Architecture</a></li>
+                <li><a href="FileTransferProtocol.html">FTP</a></li>
+                <li><a href="HTML.html">HTML</a></li>
+                <li><a href="Web%20versions.html">Web Versions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="term-article">
+            <h2>Multitier Architecture</h2>
+
+            <div class="section-block">
+                <h3>1. Definition and Core Concept</h3>
+                <p>Multitier architecture (often called n‑tier architecture) is a software design pattern that separates an application into distinct logical layers, each with a specific responsibility, running on separate physical or virtual machines. The most common web application model is the three‑tier architecture, comprising a presentation tier (user interface), an application tier (business logic), and a data tier (database). This separation allows each tier to be developed, maintained, scaled, and secured independently, leading to more robust, flexible, and manageable systems. The concept evolved from the need to move away from monolithic, single‑process applications that mixed UI, logic, and data access into a tangled codebase. By decoupling these concerns, teams can use the most appropriate technology for each layer—for example, React for the frontend, Java or Python for the backend, and PostgreSQL for the database—without conflict. Communication between tiers occurs over well‑defined APIs or network protocols, enabling them to be hosted on different servers and even in different geographic locations. Multitier architecture is the backbone of modern enterprise systems, web applications, and cloud‑native microservices. It supports scalability through horizontal scaling of each tier alone (e.g., spinning up more web servers while the database remains unchanged). It also enhances security because a compromised web server does not directly expose the database. In essence, multitier architecture brings order to complex software, breaking it into manageable, reusable, and independently deployable components.</p>
+                <img src="https://placehold.co/700x350?text=Multitier+Architecture+Overview" alt="Three-tier architecture diagram" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>2. The Three‑Tier Model in Detail</h3>
+                <p>The classic three‑tier model consists of presentation, application (or logic), and data tiers. The presentation tier is the user‑facing component: a web browser rendering HTML/CSS/JS, a mobile app, or a desktop client. It handles user input, basic validation, and visual rendering, but contains no business logic. The application tier (also called the middle tier or logic tier) is the heart of the system, where business rules, calculations, workflow orchestration, and API endpoints reside. It accepts requests from the presentation tier, processes them according to predefined rules, interacts with the data tier, and returns results. This tier can be written in any server‑side language and often runs on application servers like Tomcat, Node.js, or IIS. The data tier is responsible for persistent storage and retrieval of information, typically managed by a database management system (DBMS) like MySQL, MongoDB, or Oracle. It ensures data integrity, indexing, and transactions but knows nothing about how the data is displayed or what business rules apply. Communication between the presentation and application tiers usually uses HTTP/HTTPS (REST, GraphQL), while the application and data tiers communicate via database drivers or ODBC/JDBC. This layered separation allows developers to change the user interface without touching the business logic or the database schema, and vice versa. It also facilitates parallel development, where UI and backend teams work independently against a defined API contract.</p>
+                <img src="https://placehold.co/700x350?text=Three+Tier+Model+Detailed" alt="Detailed three-tier architecture" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>3. N‑Tier and Multi‑Layer Variants</h3>
+                <p>While the three‑tier model is the most prevalent, many systems require more granular separation, leading to n‑tier architectures. A common expansion splits the application tier into a business logic layer and a service layer. The business logic layer implements domain‑specific rules, while the service layer acts as a façade, exposing a coarse‑grained API and managing transactions. An integration tier may be added to handle communication with external systems, message queues, and third‑party APIs. In large enterprises, a separate caching tier (Redis, Memcached) sits between the application and database to speed up frequently read data. A content delivery tier at the edge serves static assets and pre‑rendered pages to global users. Microservices architecture can be viewed as an extreme form of multitier where each service independently contains its own mini‑tiers. However, excessive tiering can lead to performance penalties due to network latency between layers and increased operational complexity. The key is to balance separation of concerns with pragmatic performance; as a rule of thumb, tiers should be separated only if they have different scaling, security, or technology requirements. Containerisation (Docker, Kubernetes) has made n‑tier deployments easier by packaging each tier’s runtime into portable units. Ultimately, the number of tiers is an architectural decision driven by the system’s size, complexity, and non‑functional requirements.</p>
+                <img src="https://placehold.co/700x350?text=N-Tier+Architecture+Example" alt="N-tier architecture with multiple layers" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>4. Benefits of Multitier Architecture</h3>
+                <p>Adopting a multitier architecture delivers significant advantages over monolithic designs. Scalability is greatly enhanced: if the web application is under heavy load, extra web servers can be added to the presentation tier without touching the database. The data tier can be scaled using read replicas, sharding, or clustering independently. Maintainability improves because each tier can be updated or rewritten individually; a new mobile app can be rolled out while the existing API and database remain intact. Development teams can specialise: frontend developers focus on the UI, backend developers on the logic, and DBAs on the data, leading to deeper expertise. Technology diversity allows each tier to use the best‑suited tools; for instance, a Python analytics engine in the middle tier while using Aurelia for the frontend. Fault isolation is another key benefit: a crash in the presentation tier does not bring down the entire data layer, and redundant middle‑tier nodes can handle failures gracefully. Security is layered; the presentation tier can be placed in a DMZ while the data tier resides in a more restricted network zone, with firewalls between them. Code reusability is encouraged as the application tier exposes APIs that can be consumed by multiple presentation channels (web, mobile, IoT). Testing becomes more straightforward as each tier can be unit‑tested in isolation, then integration‑tested via API contracts. Ultimately, multitier architecture transforms a rigid, brittle monolith into a flexible, resilient system that can evolve with business needs.</p>
+                <img src="https://placehold.co/700x350?text=Benefits+of+Multitier" alt="Benefits of multitier architecture" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>5. Drawbacks and Challenges</h3>
+                <p>Despite its many benefits, multitier architecture introduces complexity that must be carefully managed. Network latency between tiers adds overhead to every request; if not optimised, the response time can degrade significantly compared to a monolithic in‑memory call. Distributed transactions become challenging when a single business operation spans multiple databases or services, often requiring patterns like sagas and eventual consistency. Deployment and operations are more complex: each tier must be versioned, monitored, and logged independently, which increases the DevOps burden. Debugging is harder because a single user request may traverse multiple servers and network hops, requiring distributed tracing tools (Jaeger, Zipkin). Configuration management must ensure that all tiers have consistent settings for database connections, timeouts, and service discovery. Serialisation and deserialisation between tiers consume CPU and can introduce subtleties with data types and null handling. Security requires more layers of defence: authentication and authorisation must be enforced at each tier boundary, not just at the entrance. Cost may increase because servers for each tier require hardware or cloud resources, though this is mitigated by auto‑scaling. Testing across tiers demands a robust environment that mimics production, which can be hard to maintain. Proper API design and versioning are critical to prevent breaking changes that cascade through every tier. These challenges are not insurmountable, but they require a mature DevOps culture, adequate tooling, and a clear architectural vision.</p>
+                <img src="https://placehold.co/700x350?text=Multitier+Challenges" alt="Challenges of multitier architecture" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>6. Communication Between Tiers</h3>
+                <p>The glue that holds multitier systems together is the communication mechanism between tiers, which must be fast, reliable, and secure. The presentation tier communicates with the application tier primarily over HTTP/HTTPS, using RESTful APIs or GraphQL. These APIs accept JSON or XML payloads and use standard status codes and headers, making them language‑agnostic. Asynchronous messaging via message brokers (RabbitMQ, Apache Kafka) is employed when the middle tier needs to process long‑running tasks without blocking the client. The application tier talks to the data tier through database‑specific protocols (e.g., PostgreSQL wire protocol) or via an ORM (Object‑Relational Mapping) layer that generates SQL. Connection pooling is essential between the application and data tiers to avoid the cost of establishing a new TCP connection for every query. Stored procedures and database views may shift some logic into the data tier, but this can blur tier responsibilities. API gateways act as a single entry point for the presentation tier, handling authentication, rate limiting, request routing, and response caching. In microservice‑based architectures, service‑to‑service communication within the application tier uses gRPC (high‑performance binary), HTTP/2, or message queues. The choice of communication style—synchronous vs. asynchronous—depends on the need for immediate response versus resilience and decoupling. Properly designed inter‑tier communication ensures that a change in one tier does not ripple into breaking changes elsewhere, thanks to well‑defined interfaces and contracts.</p>
+                <img src="https://placehold.co/700x350?text=Inter-tier+Communication" alt="Communication between tiers diagram" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>7. Security in Multitier Systems</h3>
+                <p>Multitier architecture naturally supports defence‑in‑depth security by placing network and application barriers between layers. The presentation tier (web servers) is placed in a DMZ with the most restrictive firewall rules, exposing only ports 80/443. The application tier sits behind another firewall, only reachable from the web servers on specific ports, never directly from the internet. The data tier is in the most protected network zone, accessible only by the application tier, often over a dedicated backend network segment. Authentication is typically handled at the API gateway or application tier level, with tokens (JWT) passed to the presentation tier; the data tier receives trusted database credentials never exposed to the client. Input validation occurs at multiple levels: the presentation tier does basic client‑side validation, but the application tier re‑validates everything to prevent injection attacks. SQL injection is thwarted by using parameterised queries or ORMs, preventing malicious input from reaching the database. Cross‑site scripting (XSS) is mitigated by escaping output for the appropriate context (HTML, JSON). Rate limiting and WAF rules at the edge protect against DDoS and application‑layer attacks. Audit logs are generated at each tier, providing a complete trail from the user’s initial click down to the database query. This layered defence means that even if an attacker compromises a public‑facing web server, they do not immediately gain access to the business logic or the database. Security must be designed into the architecture from the start, not bolted on afterwards.</p>
+                <img src="https://placehold.co/700x350?text=Multitier+Security+Zones" alt="Security zones in multitier architecture" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>8. The Future: Microservices and Beyond</h3>
+                <p>The principles of multitier architecture have directly influenced modern microservices and serverless patterns. Microservices break the application tier into independently deployable services, each with its own database, taking separation of concerns to the extreme. The presentation tier evolves into a micro‑frontend or a thin API gateway that aggregates data from multiple backend services. Serverless computing (AWS Lambda, Azure Functions) abstracts the middle tier entirely, executing functions on demand without managing servers, while the data tier remains as managed cloud databases. Service meshes (Istio, Linkerd) handle inter‑service communication, observing, and resilience, effectively managing the “plumbing” of a highly distributed n‑tier system. Event‑driven architectures using cloud queues and streams replace synchronous API calls with asynchronous event propagation, allowing tiers to be even more decoupled. Container orchestration platforms (Kubernetes) allow each tier to be scaled and healed automatically. WebAssembly on the server side and edge computing are pushing application logic to the network edge, redefining the physical location of the application tier. The core idea—separating concerns into distinct layers—remains constant, but the implementation evolves with technology. Future architectures will likely blend tiers dynamically, with some logic at the edge, some in the cloud, and some in on‑premises databases, all orchestrated by intelligent data fabric layers. Multitier architecture is not a silver bullet, but its foundational concepts will continue to underpin the development of robust, scalable, and secure software systems for decades to come.</p>
+                <img src="https://placehold.co/700x350?text=Future+Multitier+Microservices" alt="Future of multitier architecture" class="section-image">
+            </div>
+
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GkKSEJ_gixE" title="Three-tier architecture explained" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Internet Terminology Deep Dive. All educational content.</p>
+        </div>
+    </footer>
+</body>
+</html>

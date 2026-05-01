@@ -1,0 +1,20 @@
+document.addEventListener("DOMContentLoaded", function () {
+    var toggle = document.querySelector(".nav-toggle");
+    var nav = document.querySelector("#site-nav");
+
+    if (!toggle || !nav) {
+        return;
+    }
+
+    toggle.addEventListener("click", function () {
+        var isOpen = nav.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    nav.addEventListener("click", function (event) {
+        if (event.target.matches("a") && nav.classList.contains("open")) {
+            nav.classList.remove("open");
+            toggle.setAttribute("aria-expanded", "false");
+        }
+    });
+});

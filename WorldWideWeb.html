@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Wide Web - Internet Terminology</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script defer src="JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>Internet Terminology</h1>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">&#9776;</button>
+        </div>
+        <nav id="site-nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="WorldWideWeb.html" class="active" aria-current="page">World Wide Web</a></li>
+                <li><a href="TCP%26IP.html">TCP/IP</a></li>
+                <li><a href="WebBrowsers.html">Web Browsers</a></li>
+                <li><a href="WebServers.html">Web Servers</a></li>
+                <li><a href="URL.html">URL</a></li>
+                <li><a href="DomainName.html">Domain Name</a></li>
+                <li><a href="HTTP.html">HTTP</a></li>
+                <li><a href="Intranet.html">Intranet</a></li>
+                <li><a href="Extranet.html">Extranet</a></li>
+                <li><a href="MultitierArchitecture.html">Multitier Architecture</a></li>
+                <li><a href="FileTransferProtocol.html">FTP</a></li>
+                <li><a href="HTML.html">HTML</a></li>
+                <li><a href="Web%20versions.html">Web Versions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="term-article">
+            <h2>World Wide Web (WWW)</h2>
+
+            <!-- Section 1: Introduction -->
+            <div class="section-block">
+                <h3>1. Introduction and Definition</h3>
+                <p>The World Wide Web, commonly abbreviated as WWW or simply the Web, is a vast information system that gives users access to a universe of documents and other resources interconnected through hyperlinks. It operates primarily over the internet and allows the retrieval of text, images, video, and interactive content using a standardised architecture. Conceived in 1989 by British computer scientist Sir Tim Berners‑Lee while at CERN, the Web was intended to facilitate automatic information sharing among scientists worldwide. The fundamental principle behind the Web is that any piece of information can be linked to any other piece, creating a web of knowledge rather than isolated silos. Unlike the internet, which is the physical network infrastructure, the Web is a service that runs on top of it, using protocols such as HTTP to request and transfer resources. The Web became publicly available in 1991 and has since transformed nearly every aspect of modern life, from commerce and education to social interaction. Today, billions of pages exist, hosted on millions of web servers and accessed through a wide variety of devices. It is built upon three core technologies: Hypertext Markup Language (HTML) for structuring content, Uniform Resource Locators (URLs) for addressing, and the Hypertext Transfer Protocol (HTTP) for transmission. This ecosystem is maintained by the World Wide Web Consortium (W3C), founded by Berners‑Lee, which develops open standards to ensure the Web stays accessible, interoperable, and evolutionary. In essence, the Web democratised information, enabling anyone with a connection to both consume and, later, to publish content globally.</p>
+                <img src="https://placehold.co/700x350?text=World+Wide+Web+Global+Network" alt="Global web network illustration" class="section-image">
+            </div>
+
+            <!-- Section 2: Historical Origins -->
+            <div class="section-block">
+                <h3>2. Historical Origins at CERN</h3>
+                <p>Tim Berners‑Lee submitted his original proposal for a "Mesh" information management system in March 1989, at a time when CERN was already the largest Internet node in Europe. His first proposal, titled "Information Management: A Proposal," was initially met with mild interest, and he received no formal project funding. Undeterred, Berners‑Lee used a NeXT computer – a high‑end workstation made by Steve Jobs’s company after leaving Apple – to develop the world’s first web server, browser, and web pages. By Christmas 1990, he had written the first browser (called WorldWideWeb, later renamed Nexus to avoid confusion with the Web itself) and the first web server (info.cern.ch). The first website went live on 6 August 1991, explaining the World Wide Web project and teaching users how to access documents and set up their own servers. Growth was initially slow, limited mostly to academic and research communities, but the release of the Mosaic browser in 1993 brought the Web a graphical interface that appealed to the general public. CERN made a landmark decision on 30 April 1993 to release the Web software into the public domain, waiving all royalties – a move that catalysed its explosive spread. Without that open foundation, the Web could have become a proprietary, fragmented service. This early historical phase laid the groundwork for the first web standards and the cultural philosophy of openness and collaboration that still defines the Web’s ethos. The NeXT machine that ran the first server is preserved as a museum piece, with a famous label that reads: “This machine is a server. DO NOT POWER IT DOWN!!”</p>
+                <img src="https://placehold.co/700x350?text=Tim+Berners-Lee+NeXT+Computer" alt="Tim Berners-Lee's NeXT computer, the first web server" class="section-image">
+            </div>
+
+            <!-- Section 3: Core Components -->
+            <div class="section-block">
+                <h3>3. Core Components: HTML, URI, HTTP</h3>
+                <p>The structural foundation of the Web relies on three inseparable pillars: HTML, URIs, and HTTP. HTML (Hypertext Markup Language) provides a semantic structure for documents, allowing text to be formatted and linked, and later evolved to support multimedia embedding and interactive forms. URIs (Uniform Resource Identifiers), most commonly known as URLs, provide a global addressing scheme so that every resource on the Web has a unique, unambiguous address. HTTP (Hypertext Transfer Protocol) defines the rules by which clients (browsers) request resources from servers and how servers respond with the appropriate content or error messages. Together, these three innovations solved the problem that earlier hypertext systems faced: the inability to link across different hardware and software platforms. Berners‑Lee deliberately kept the initial implementations simple to lower the barrier to entry, ensuring that HTTP was a stateless, text‑based protocol easy to debug and implement. The flexibility of HTML allowed non‑programmers to create web pages with just a text editor. URIs were designed to be extensible, meaning new schemes (like https, ftp, or mailto) could be added without breaking existing systems. These building blocks are now so ingrained that we rarely think about them, yet they are the reason the Web can scale from a single page to billions. Every time you click a link, your browser parses the URI, sends an HTTP GET request to the specified server, and receives HTML back, which it then renders. This elegant process has remained fundamentally unchanged for over three decades, a testament to the robustness of the original design.</p>
+                <img src="https://placehold.co/700x350?text=HTML+URI+HTTP+Integration" alt="HTML, URI, and HTTP relationship diagram" class="section-image">
+            </div>
+
+            <!-- Section 4: How the Web Works -->
+            <div class="section-block">
+                <h3>4. How the Web Actually Works</h3>
+                <p>When a user types a web address or clicks a hyperlink, a well‑orchestrated sequence of events occurs behind the scenes to fetch and display the desired page. First, the browser extracts the domain name from the URL and queries a Domain Name System (DNS) server to translate that human‑readable name into a machine‑readable IP address. Once the IP address is obtained, the browser initiates a Transmission Control Protocol (TCP) connection to the web server on port 80 (for HTTP) or 443 (for HTTPS). With the connection established, the browser sends an HTTP request message that includes the desired resource path and headers describing the client’s capabilities. The web server interprets the request, locates the file (which could be a static HTML file or a dynamic script), and returns an HTTP response containing a status code (200 for success, 404 for not found, etc.) and the content. If the content is HTML, the browser’s rendering engine parses the markup and incrementally displays elements, making additional requests for linked resources such as images, CSS stylesheets, and JavaScript files. Each of these resources follows the same request‑response cycle, often in parallel to speed up page loading. Caching mechanisms at multiple levels – browser cache, proxy servers, and content delivery networks – store copies of frequently accessed resources to reduce latency and bandwidth. Secure connections using HTTPS add an encryption layer (TLS/SSL) to protect data integrity and privacy. This entire process, from DNS lookup to full page rendering, typically happens in a few hundred milliseconds, giving users the illusion of instant access to a global repository of information.</p>
+                <img src="https://placehold.co/700x350?text=HTTP+Request+Response+Cycle" alt="HTTP request-response cycle diagram" class="section-image">
+            </div>
+
+            <!-- Section 5: The Role of Hyperlinks -->
+            <div class="section-block">
+                <h3>5. The Revolutionary Role of Hyperlinks</h3>
+                <p>Hyperlinks are the defining feature that distinguishes the Web from other information systems, enabling non‑linear, associative traversal of documents. A hyperlink is simply an embedded reference in a hypertext document that points to another location, which could be within the same page, another page on the same server, or an entirely different server across the globe. This concept was inspired by earlier visions like Vannevar Bush's Memex and Ted Nelson's Xanadu, but the Web was the first to implement it practically on a global scale. Hyperlinks transform the reading experience from a sequential, book‑like progression into a web‑like, exploratory journey, where users can follow their curiosity. For the author, hyperlinks provide a powerful citation tool, allowing immediate access to source material without physical limitations. Search engines like Google later exploited the link structure to assess the authority and relevance of pages, making the Web searchable and navigable by robots. The open nature of hyperlinks means any page can link to any other without permission, creating a democratic, organic growth pattern. Social media, wikis, and blogging platforms all extend the power of hyperlinking, turning users from passive consumers into active content creators. However, hyperlinks also introduced challenges such as link rot, where targeted pages move or disappear over time, breaking the connectedness. Efforts like the Internet Archive and persistent identifiers attempt to mitigate this issue. Ultimately, the hyperlink is the atomic unit of the Web’s connectivity, turning a collection of isolated documents into a true global web.</p>
+                <img src="https://placehold.co/700x350?text=Hyperlinks+Connecting+Pages" alt="Visualization of hyperlinks connecting web pages" class="section-image">
+            </div>
+
+            <!-- Section 6: Web vs Internet -->
+            <div class="section-block">
+                <h3>6. The Web vs. the Internet: Clearing the Confusion</h3>
+                <p>Many people use the terms "internet" and "Web" interchangeably, but they refer to different layers of technology. The internet is the massive, global network of interconnected computers that uses the TCP/IP protocol suite to communicate; it supports many services beyond the Web, including email (SMTP), file transfer (FTP), voice‑over‑IP (VoIP), and online gaming. The World Wide Web is an application that runs on top of the internet, providing a hyperlinked information space accessible via browsers. One helpful analogy is to think of the internet as the roads and railways, while the Web is one type of vehicle – say, a fleet of trucks carrying web pages – travelling on them. The internet existed for decades before the Web was invented; ARPANET, the precursor to the internet, became operational in 1969, whereas the Web debuted in 1991. Without the internet, the Web could not function, but the internet would still exist without the Web, albeit in a very different form. The Web simply became so dominant that its protocols (HTTP/HTTPS) now carry a substantial majority of internet traffic. Modern mobile apps often use HTTP as a transport protocol, blurring the line further, but they are still clients of the internet, not the Web itself. Recognising this distinction is crucial for understanding network architecture and security, because vulnerabilities in the internet infrastructure (like DNS spoofing) can threaten the Web without being caused by it. In summary, the internet is the plumbing; the Web is one of the many services that flow through the pipes, albeit the most visible one.</p>
+                <img src="https://placehold.co/700x350?text=Internet+vs+Web+Illustration" alt="Diagram comparing internet infrastructure with web service" class="section-image">
+            </div>
+
+            <!-- Section 7: Impact on Society -->
+            <div class="section-block">
+                <h3>7. Societal and Cultural Impact</h3>
+                <p>The World Wide Web has arguably been the most transformative technology of the late 20th and early 21st centuries, reshaping economies, governance, and personal identity. It enabled the rise of e‑commerce giants like Amazon and Alibaba, which restructured global retail and supply chains. Education became more accessible through online courses, digital libraries, and repositories of open educational resources, narrowing the knowledge gap in many regions. Social relationships were redefined as platforms like Facebook, Twitter, and Instagram built virtual communities unbounded by geography, though not without concerns about privacy and mental health. The Web also empowered grassroots movements and citizen journalism, allowing marginalised voices to reach global audiences and challenge mainstream media narratives. Governments adopted e‑governance portals, but also faced new threats like cyber‑espionage and disinformation campaigns that spread rapidly through web channels. The explosion of user‑generated content through blogs, YouTube, and wikis changed how culture is produced, challenging traditional gatekeepers in publishing, music, and film. However, the Web also contributed to the digital divide, where those without reliable access are increasingly excluded from economic and civic participation. The concept of net neutrality emerged as a critical policy debate, arguing that all web traffic should be treated equally. Despite its challenges, the Web remains a powerful force for transparency and collaboration, with projects like Wikipedia exemplifying the collective intelligence that the Web can unleash.</p>
+                <img src="https://placehold.co/700x350?text=Web+Impact+on+Society" alt="Collage showing social media, e-commerce, online education" class="section-image">
+            </div>
+
+            <!-- Section 8: Future Evolution -->
+            <div class="section-block">
+                <h3>8. Future Evolution and Challenges</h3>
+                <p>The Web continues to evolve, with emerging paradigms often labelled Web 3.0 and Web 4.0, aiming to address the shortcomings of the current web. Web 3.0 envisions a semantic web where data is structured so that machines can understand context and meaning, enabling more intelligent search, personal assistants, and automated data integration. Technologies like RDF, SPARQL, and knowledge graphs are building blocks for this smarter web. Simultaneously, the decentralised web movement, often conflated with Web3 (blockchain‑based), seeks to reduce reliance on centralised platforms by using distributed ledgers and peer‑to‑peer protocols. Challenges such as data privacy, misinformation, and algorithmic manipulation have led to calls for a more human‑centric web, laid out in Tim Berners‑Lee’s “Contract for the Web.” Web 4.0, sometimes called the symbiotic web, imagines a deeply integrated environment where augmented reality, ambient intelligence, and brain‑computer interfaces blur the line between the physical and digital worlds. Technical hurdles include ensuring accessibility, energy efficiency, and universal connectivity, as still only about two‑thirds of the global population has internet access. Standardisation bodies like W3C continue to work on WebAssembly, WebXR, and privacy‑preserving advertising APIs to keep the Web open and competitive with proprietary app ecosystems. Ultimately, the future of the Web depends on collaborative governance and a commitment to its founding principles of universality and openness. As artificial intelligence becomes embedded in web services, questions of agency, bias, and control will define the next chapters of the Web’s story.</p>
+                <img src="https://placehold.co/700x350?text=Future+Web+Evolution+AI+Semantic" alt="Future web vision: AI, AR, and semantic technologies" class="section-image">
+            </div>
+
+            <!-- Embedded educational video -->
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GUrDI6OkJfU" title="What is the World Wide Web?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Internet Terminology Deep Dive. All educational content.</p>
+        </div>
+    </footer>
+</body>
+</html>

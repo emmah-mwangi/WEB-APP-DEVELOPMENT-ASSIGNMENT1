@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTP - Internet Terminology</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script defer src="JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>Internet Terminology</h1>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">&#9776;</button>
+        </div>
+        <nav id="site-nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="WorldWideWeb.html">World Wide Web</a></li>
+                <li><a href="TCP%26IP.html">TCP/IP</a></li>
+                <li><a href="WebBrowsers.html">Web Browsers</a></li>
+                <li><a href="WebServers.html">Web Servers</a></li>
+                <li><a href="URL.html">URL</a></li>
+                <li><a href="DomainName.html">Domain Name</a></li>
+                <li><a href="HTTP.html">HTTP</a></li>
+                <li><a href="Intranet.html">Intranet</a></li>
+                <li><a href="Extranet.html">Extranet</a></li>
+                <li><a href="MultitierArchitecture.html">Multitier Architecture</a></li>
+                <li><a href="FileTransferProtocol.html" class="active" aria-current="page">FTP</a></li>
+                <li><a href="HTML.html">HTML</a></li>
+                <li><a href="Web%20versions.html">Web Versions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="term-article">
+            <h2>File Transfer Protocol (FTP)</h2>
+
+            <div class="section-block">
+                <h3>1. Introduction and History</h3>
+                <p>The File Transfer Protocol, universally known as FTP, is one of the oldest application‑layer protocols in the TCP/IP suite, standardised in 1971 even before TCP and IP. It was designed for the efficient, reliable transfer of files between computers over a network, regardless of their operating system or file system. FTP predates the World Wide Web and was the primary method for downloading software, documents, and multimedia before HTTP gained popularity. It operates on a client‑server model where an FTP client initiates a connection to an FTP server, allowing the user to browse directories, upload, download, rename, and delete files. The protocol uses two separate TCP connections: a control connection for sending commands and a data connection for transferring the actual file content. FTP originally transmitted all data, including passwords, in clear text, which has become a major security concern in the modern era. Despite its age, FTP is still widely used in legacy systems, web hosting management, and automated batch file transfers. The protocol is defined in RFC 959, with numerous extensions added for firewalls, security, and performance. Its longevity is a testament to its simplicity and ubiquity; virtually every operating system includes an FTP client. However, the shift toward encrypted alternatives like SFTP and FTPS has been ongoing, and many organisations now deprecate plain FTP in favour of more secure methods. FTP’s design principles of a separate control and data channel influenced many later protocols, including HTTP when it adopted extended capabilities.</p>
+                <img src="https://placehold.co/700x350?text=FTP+File+Transfer+Protocol" alt="FTP protocol communication" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>2. How FTP Works: Control and Data Connections</h3>
+                <p>FTP’s dual‑channel architecture is its most distinctive feature. The control connection is established first on TCP port 21, and all commands (USER, PASS, LIST, RETR, STOR, etc.) and responses are sent over this channel, remaining open for the entire session. The data connection is created dynamically for each file transfer or directory listing, using a separate port. FTP supports two modes for the data connection: active and passive. In active mode, the server initiates the data connection back to the client from port 20 to a random high port on the client, which often fails when the client is behind a firewall or NAT. Passive mode was introduced to solve this: the client initiates both connections, sending a PASV command, and the server opens a random port and tells the client to connect to it. Passive mode is the default in most modern FTP clients and is firewall‑friendly. During a file transfer, the control connection remains idle, but if it closes, the data transfer is aborted. The protocol supports multiple data representations (ASCII, binary/EBCDIC) and file structures (record‑oriented, page‑oriented), though modern usage almost exclusively uses binary/image type to preserve file integrity. Large files are transmitted in a stream of bytes without built‑in compression, but modern FTP servers support MODE Z for on‑the‑fly gzip compression. Understanding the dual‑connection model is crucial for configuring firewalls and load balancers, which must allow the dynamic data ports. This architecture, while ingenious for its time, is one reason why FTP is more complex to secure and tunnel through modern networks than simple single‑stream protocols like HTTP.</p>
+                <img src="https://placehold.co/700x350?text=FTP+Active+vs+Passive+Mode" alt="FTP active and passive mode diagram" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>3. Common FTP Commands and Responses</h3>
+                <p>FTP commands are short, text‑based instructions sent over the control connection, followed by a three‑digit reply code and optional human‑readable message. The USER and PASS commands handle authentication, though anonymous FTP is supported with ‘anonymous’ as the user and an email as the password. CWD changes the working directory, and CDUP goes to the parent. PWD prints the current directory, LIST returns the directory listing (often relayed through the data channel), and NLST returns a simple file list. RETR downloads a file, STOR uploads a file, and STOU uploads with a unique filename. DELE deletes a file, RMD and MKD remove/create directories, and RNFR/RNTO rename files. TYPE sets the transfer mode to ASCII (A) or binary (I), with binary being essential for non‑text files. The server responses are grouped by hundred: 1xx (positive preliminary), 2xx (positive completion), 3xx (intermediate positive), 4xx (transient negative), and 5xx (permanent negative). For example, 220 indicates service ready, 230 is login successful, 200 is command okay, and 550 is request action not taken (file not found). Modern graphical FTP clients hide these commands, but command‑line usage reveals the protocol’s elegant, old‑school simplicity. This command‑response pattern is reminiscent of early internet protocols and remains a fast, scriptable interface for automation. Scripts can use FTP commands in batch mode to automate nightly backups, content uploads, and inventory updates, making it invaluable for system administrators.</p>
+                <img src="https://placehold.co/700x350?text=FTP+Commands+Listing" alt="FTP commands and responses table" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>4. Security Weaknesses and Secure Alternatives</h3>
+                <p>Traditional FTP transmits everything—including usernames, passwords, and file contents—in cleartext, making it trivially vulnerable to packet sniffing on any untrusted network. Credential theft and data interception are therefore serious risks, and many compliance standards (PCI‑DSS, HIPAA) prohibit plain FTP. To address these flaws, two secure variants emerged: FTPS (FTP Secure) and SFTP (SSH File Transfer Protocol). FTPS adds a TLS/SSL layer to the FTP session, similar to HTTPS, and can operate in explicit mode (AUTH TLS command on the control channel) or implicit mode (TLS from the start on a separate port, usually 990). FTPS encrypts both control and data channels, but its dual‑port nature still causes firewall headaches. SFTP, on the other hand, is a completely different protocol that runs over SSH (port 22), using a single encrypted connection for both commands and data, and is far more firewall‑friendly. SFTP is bundled with all SSH servers and provides additional features like resumable transfers and file permission management. Many organisations have migrated to SFTP for automated transfers, as it leverages existing SSH keys for passwordless authentication. Secure Copy (SCP) is an older, simpler SSH‑based transfer tool, but it is less feature‑rich than SFTP. Despite the security risks, FTP still lingers in internal networks for simplicity, but best practice is to never expose plain FTP to the internet. The modern recommendation is to retire FTP in favour of SFTP, HTTPS‑based file upload/download, or cloud storage APIs that provide built‑in encryption and access management.</p>
+                <img src="https://placehold.co/700x350?text=FTP+Security+Alternatives" alt="FTPS vs SFTP comparison" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>5. FTP Clients and Server Software</h3>
+                <p>A wide array of FTP client and server software exists, ranging from command‑line tools to graphical applications. Popular desktop clients include FileZilla, WinSCP, Cyberduck, and Transmit, many of which support FTP, FTPS, and SFTP transparently. Command‑line clients like the standard Unix `ftp` or `lftp` are powerful for scripting. Web browsers once had built‑in FTP support but have largely removed it due to security concerns. On the server side, vsftpd (Very Secure FTP Daemon) is a popular, lightweight, and security‑enhanced FTP server for Linux. ProFTPD is highly configurable, with a modular architecture and support for FTPS. Pure‑FTPd offers ease of use and features like virtual users and bandwidth throttling. Microsoft IIS includes an FTP server role for Windows environments. Most FTP servers support virtual users (accounts not tied to OS users), making management easier. Configuration involves specifying authentication method, home directory isolation, permission masks, and passive port ranges, which must also be allowed through the server firewall. Advanced features include upload/download speed limits, per‑user directory permissions, and automated banning of brute‑force attempts. When deploying an FTP server, it is crucial to apply strict access controls, place it in a DMZ if public, and prefer FTPS or tunnel through a VPN. Server logs record the IP, user, and commands for audit trails. The rich ecosystem ensures that FTP can fill a wide range of file‑transfer needs, albeit increasingly being replaced by secure web‑based file sharing.</p>
+                <img src="https://placehold.co/700x350?text=FTP+Client+Server+Software" alt="FTP client and server software logos" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>6. FTP in Web Hosting and Content Management</h3>
+                <p>For decades, FTP was the standard method for web developers to upload HTML, CSS, and images to a shared hosting server. The workflow typically involved editing files locally and then pushing them to the server via an FTP client, a practice still common in many CMS and basic hosting plans. Web hosting control panels like cPanel and Plesk have integrated FTP account management that creates isolated FTP users restricted to their own directories. Many content management systems (WordPress, Joomla) require FTP credentials to install plugins or themes directly from the admin panel, or they use it to update core files when the web server process lacks write permissions. However, this practice is risky; FTP credentials stored in a web application’s configuration file can be harvested if the site is compromised. Modern development workflows favour version control (Git) paired with CI/CD pipelines that deploy via SSH or API calls, eliminating manual FTP uploads. Nevertheless, FTP remains prevalent in low‑cost hosting environments and for quick one‑off transfers. Some hosts use SFTP (SSH) by default, providing a secure alternative that works with the same client tools. The transition from FTP‑based deployment is part of a broader shift toward infrastructure‑as‑code and immutable deployments, where the server is never modified directly. Still, the familiarity and simplicity of FTP ensure it will not disappear overnight, particularly in legacy systems and small websites.</p>
+                <img src="https://placehold.co/700x350?text=FTP+Web+Hosting+Upload" alt="FTP website deployment concept" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>7. FTP and Firewall/NAT Traversal</h3>
+                <p>FTP’s use of dynamic ports for the data channel has long been a source of frustration for network administrators. In active mode, the server attempts to connect back to the client, which is often blocked by the client’s firewall or not possible through NAT. This forced the adoption of passive mode, where the client initiates both connections, but the server must still open a range of high‑numbered ports (typically 1024–65535) for data. Firewalls must be configured to allow these ports, which provides a broad surface area. FTP‑aware firewalls and NAT devices perform “packet inspection” to dynamically open the data port based on the PORT or PASV command, a technique known as FTP Application Layer Gateway (ALG). However, ALGs can cause problems, especially with encrypted FTPS connections where the control channel is unreadable, preventing the firewall from knowing which ports to open. This is why SFTP, which uses a single port (22), is far easier to manage in a firewall context. Some modern FTP servers can be configured to use a small, fixed range of passive ports to simplify firewall rules. When setting up an FTP server behind a NAT, the administrator must also specify the server’s external IP address for the PASV response, otherwise the client will try to connect to the internal address. These complexities have contributed to FTP’s declining use in favour of simpler, single‑port protocols. Nonetheless, understanding FTP’s network quirks is a rite of passage for network engineers and remains relevant for supporting legacy applications.</p>
+                <img src="https://placehold.co/700x350?text=FTP+Firewall+NAT+Issues" alt="FTP firewall and NAT traversal" class="section-image">
+            </div>
+
+            <div class="section-block">
+                <h3>8. The Future and Decline of FTP</h3>
+                <p>While FTP was revolutionary in its day, the protocol is in steady decline due to its inherent security and architectural weaknesses. Browsers have dropped native FTP support, and major operating systems have deprecated command‑line FTP tools. Cloud storage services (Amazon S3, Google Cloud Storage, Dropbox) have replaced FTP for many file‑sharing and backup use cases, offering REST APIs, web interfaces, and seamless encryption. Managed File Transfer (MFT) solutions provide enterprise‑grade auditing, compliance, and automation far beyond FTP’s capabilities. Protocols like HTTP/3 and QUIC offer multipurpose, multiplexed, and encrypted transport, making a separate file‑transfer protocol less necessary. However, FTP will likely persist in niche areas: automated machine‑to‑machine transfers in manufacturing, legacy banking systems, and embedded IoT devices that lack the resources for modern TLS stacks. The scientific community also uses a specialised variant, GridFTP, for high‑speed data transfer across research networks. For new projects, SFTP over SSH is the de facto standard for secure file transfer, while HTTP‑based upload with token authentication is the modern web‑native approach. The Internet Engineering Task Force (IETF) has published Best Current Practices urging users to migrate away from FTP, but no formal sunset date exists. The enduring lesson from FTP is that protocols must evolve or be replaced as security threats and network environments change. FTP’s legacy is not just the files it moved, but the foundational concepts of networked file management that influenced generations of internet applications.</p>
+                <img src="https://placehold.co/700x350?text=Future+File+Transfer+Cloud" alt="FTP decline and cloud storage rise" class="section-image">
+            </div>
+
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L9aZpg0ip70" title="FTP Explained" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Internet Terminology Deep Dive. All educational content.</p>
+        </div>
+    </footer>
+</body>
+</html>
