@@ -266,6 +266,33 @@ main {
     border: 0;
 }
 
+.video-link {
+    margin: 0.8rem 0 0;
+    text-align: center;
+}
+
+.video-link a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    color: var(--accent-strong);
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: background-color 180ms ease, color 180ms ease, box-shadow 180ms ease;
+}
+
+.video-link a:hover,
+.video-link a:focus-visible {
+    background: var(--accent);
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(194, 65, 93, 0.18);
+}
+
 /* ===== Footer ===== */
 footer {
     margin-top: 2rem;
