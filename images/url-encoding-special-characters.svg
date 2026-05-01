@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">URL encoding and special characters</title>
+  <desc id="desc">Unsafe URL characters are percent-encoded to preserve meaning.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">URL Encoding</text>
+  <rect x="110" y="98" width="480" height="206" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+  <rect x="110" y="98" width="480" height="38" rx="8" fill="#12355b"/>
+  <g font-family="Consolas,monospace" font-size="17">
+    <text x="150" y="123" fill="#fff">Character</text><text x="390" y="123" fill="#fff">Encoded</text>
+    <text x="170" y="170" fill="#12355b">space</text><text x="410" y="170" fill="#c2415d">%20</text>
+    <text x="170" y="205" fill="#12355b">#</text><text x="410" y="205" fill="#c2415d">%23</text>
+    <text x="170" y="240" fill="#12355b">&amp;</text><text x="410" y="240" fill="#c2415d">%26</text>
+    <text x="170" y="275" fill="#12355b">?</text><text x="410" y="275" fill="#c2415d">%3F</text>
+  </g>
+</svg>

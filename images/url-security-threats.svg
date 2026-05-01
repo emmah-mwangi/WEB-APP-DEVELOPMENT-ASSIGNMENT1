@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">URL security threats</title>
+  <desc id="desc">URL security risks include phishing, homograph attacks, open redirects, and directory traversal.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">URL-Based Security Threats</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#12355b">
+    <rect x="90" y="118" width="150" height="58" rx="8" fill="#fee2e2" stroke="#fca5a5"/><text x="165" y="142">Phishing</text><text x="165" y="162">lookalikes</text>
+    <rect x="275" y="118" width="150" height="58" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="350" y="142">Open</text><text x="350" y="162">redirects</text>
+    <rect x="460" y="118" width="150" height="58" rx="8" fill="#fee2e2" stroke="#fca5a5"/><text x="535" y="142">XSS via</text><text x="535" y="162">parameters</text>
+    <rect x="200" y="226" width="300" height="50" rx="8" fill="#15263b"/>
+    <text x="350" y="257" fill="#fff" font-family="Consolas,monospace">../ ../ suspicious-link</text>
+  </g>
+  <path d="M350 186 V222" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+</svg>

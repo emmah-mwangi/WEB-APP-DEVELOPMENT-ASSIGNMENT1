@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Absolute and relative URLs</title>
+  <desc id="desc">Absolute URLs include the full address, while relative URLs resolve from the current document or site root.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Absolute vs Relative URLs</text>
+  <line x1="350" y1="92" x2="350" y2="292" stroke="#d7e0ec" stroke-width="2"/>
+  <g font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="middle">
+    <rect x="74" y="130" width="240" height="90" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="194" y="160" font-size="20" fill="#12355b">Absolute</text>
+    <text x="194" y="190" font-size="14" fill="#526174">https://site.com/img/logo.png</text>
+    <rect x="386" y="130" width="240" height="90" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="506" y="160" font-size="20" fill="#12355b">Relative</text>
+    <text x="506" y="190" font-size="14" fill="#526174">../img/logo.png</text>
+  </g>
+  <text x="350" y="260" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#526174">Relative links are resolved against a base URL.</text>
+</svg>
