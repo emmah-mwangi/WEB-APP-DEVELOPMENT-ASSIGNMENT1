@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">DNS hierarchy tree</title>
+  <desc id="desc">The DNS tree flows from the root to top-level domains, second-level domains, and subdomains.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">DNS Hierarchy Tree</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">
+    <circle cx="350" cy="102" r="27" fill="#12355b"/>
+    <text x="350" y="109" fill="#ffffff">Root</text>
+    <rect x="140" y="162" width="90" height="44" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <rect x="305" y="162" width="90" height="44" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <rect x="470" y="162" width="90" height="44" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="185" y="190" fill="#12355b">.com</text>
+    <text x="350" y="190" fill="#12355b">.org</text>
+    <text x="515" y="190" fill="#12355b">.ke</text>
+    <rect x="84" y="258" width="112" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <rect x="210" y="258" width="112" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <rect x="378" y="258" width="112" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <rect x="504" y="258" width="112" height="42" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="140" y="284" fill="#12355b">example</text>
+    <text x="266" y="284" fill="#12355b">shop</text>
+    <text x="434" y="284" fill="#12355b">mozilla</text>
+    <text x="560" y="284" fill="#12355b">school</text>
+  </g>
+  <path d="M350 129 V150 M350 150 H185 V162 M350 150 V162 M350 150 H515 V162" stroke="#c2415d" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M185 206 V239 H140 V258 M185 239 H266 V258 M515 206 V239 H434 V258 M515 239 H560 V258" stroke="#c2415d" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>

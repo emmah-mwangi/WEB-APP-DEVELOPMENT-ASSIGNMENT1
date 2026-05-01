@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Intranet architecture</title>
+  <desc id="desc">Browser clients access web servers, application servers, databases, directory services, and search.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Intranet Architecture</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="62" y="143" width="108" height="64" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="116" y="169" fill="#12355b">Employee</text>
+    <text x="116" y="190" fill="#526174">Browser</text>
+    <rect x="215" y="143" width="108" height="64" rx="8" fill="#edf2f7" stroke="#9fb0c5"/>
+    <text x="269" y="169" fill="#12355b">Reverse</text>
+    <text x="269" y="190" fill="#526174">Proxy</text>
+    <rect x="368" y="100" width="112" height="54" rx="8" fill="#12355b"/>
+    <text x="424" y="132" fill="#ffffff">Web Server</text>
+    <rect x="368" y="197" width="112" height="54" rx="8" fill="#12355b"/>
+    <text x="424" y="229" fill="#ffffff">App Server</text>
+    <ellipse cx="590" cy="128" rx="54" ry="17" fill="#c2415d"/>
+    <rect x="536" y="128" width="108" height="42" fill="#c2415d"/>
+    <ellipse cx="590" cy="170" rx="54" ry="17" fill="#9f2d48"/>
+    <text x="590" y="153" fill="#ffffff">Database</text>
+    <rect x="536" y="218" width="108" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="590" y="247" fill="#12355b">Directory</text>
+  </g>
+  <path d="M170 175 H213 M323 175 H352 M352 175 V127 H368 M352 175 V224 H368 M480 127 H535 M480 224 H535" stroke="#c2415d" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M194 164 L214 175 L194 186 M348 116 L368 127 L348 138 M348 213 L368 224 L348 235" fill="none" stroke="#c2415d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

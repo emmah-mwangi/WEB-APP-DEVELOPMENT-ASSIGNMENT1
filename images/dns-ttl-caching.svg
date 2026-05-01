@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">DNS TTL and caching</title>
+  <desc id="desc">DNS caching stores records until their time-to-live value expires.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">DNS Caching and TTL</text>
+  <g transform="translate(74 116)">
+    <rect width="150" height="112" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="75" y="47" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12355b">Client</text>
+    <text x="75" y="74" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#526174">Browser cache</text>
+  </g>
+  <g transform="translate(275 94)">
+    <rect width="150" height="158" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <circle cx="75" cy="62" r="34" fill="#ffffff" stroke="#c2415d" stroke-width="5"/>
+    <path d="M75 62 V40 M75 62 H96" stroke="#12355b" stroke-width="5" stroke-linecap="round"/>
+    <text x="75" y="119" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12355b">Resolver</text>
+    <text x="75" y="142" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#526174">Caches answers</text>
+  </g>
+  <g transform="translate(478 116)">
+    <rect width="150" height="112" rx="8" fill="#edf2f7" stroke="#9fb0c5"/>
+    <text x="75" y="47" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12355b">Authoritative</text>
+    <text x="75" y="74" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#526174">Fresh records</text>
+  </g>
+  <path d="M225 172 H272 M426 172 H475" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M254 160 L274 172 L254 184 M457 160 L477 172 L457 184" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+    <rect x="118" y="270" width="150" height="36" rx="8" fill="#edf2f7"/>
+    <text x="193" y="293" text-anchor="middle" fill="#12355b">Low TTL = fast changes</text>
+    <rect x="432" y="270" width="158" height="36" rx="8" fill="#edf2f7"/>
+    <text x="511" y="293" text-anchor="middle" fill="#12355b">High TTL = fewer queries</text>
+  </g>
+</svg>

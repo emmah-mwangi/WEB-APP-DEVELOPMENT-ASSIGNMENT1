@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Extranet connecting external partners</title>
+  <desc id="desc">An extranet provides selected partners secure access to shared company resources.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Extranet: Secure Partner Access</text>
+  <rect x="250" y="110" width="200" height="130" rx="14" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="3"/>
+  <text x="350" y="143" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12355b">Company Extranet</text>
+  <rect x="309" y="165" width="82" height="44" rx="8" fill="#12355b"/>
+  <text x="350" y="192" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Portal</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#12355b">
+    <circle cx="118" cy="132" r="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="118" y="137">Supplier</text>
+    <circle cx="118" cy="236" r="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="118" y="241">Customer</text>
+    <circle cx="582" cy="132" r="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="582" y="137">Partner</text>
+    <circle cx="582" cy="236" r="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="582" y="241">Vendor</text>
+  </g>
+  <path d="M153 132 H250 M153 236 H250 M450 132 H547 M450 236 H547" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Intranet private network</title>
+  <desc id="desc">Employees access private internal services through a protected intranet.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Intranet Private Network</text>
+  <rect x="250" y="98" width="200" height="154" rx="16" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="3"/>
+  <text x="350" y="126" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#12355b">Private Organisation Network</text>
+  <rect x="308" y="156" width="84" height="62" rx="8" fill="#12355b"/>
+  <rect x="326" y="171" width="48" height="8" rx="4" fill="#dbeafe"/>
+  <rect x="326" y="190" width="48" height="8" rx="4" fill="#dbeafe"/>
+  <circle cx="381" cy="175" r="4" fill="#16a34a"/>
+  <circle cx="381" cy="194" r="4" fill="#f59e0b"/>
+  <text x="350" y="236" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#12355b">Internal Web Server</text>
+  <g fill="#fef3c7" stroke="#f59e0b" stroke-width="2">
+    <circle cx="120" cy="142" r="28"/>
+    <circle cx="120" cy="226" r="28"/>
+    <circle cx="580" cy="142" r="28"/>
+    <circle cx="580" cy="226" r="28"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#12355b" text-anchor="middle">
+    <text x="120" y="147">HR</text>
+    <text x="120" y="231">IT</text>
+    <text x="580" y="147">Staff</text>
+    <text x="580" y="231">Teams</text>
+  </g>
+  <path d="M150 142 H250 M150 226 H250 M450 142 H550 M450 226 H550" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+  <rect x="496" y="92" width="86" height="36" rx="8" fill="#edf2f7" stroke="#9fb0c5"/>
+  <text x="539" y="115" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#12355b">Firewall</text>
+</svg>

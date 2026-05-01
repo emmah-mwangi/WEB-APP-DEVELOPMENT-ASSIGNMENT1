@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Intranet challenges</title>
+  <desc id="desc">Common intranet challenges include stale content, poor search, low adoption, and legacy integration.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Intranet Management Challenges</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#12355b" text-anchor="middle">
+    <rect x="88" y="110" width="150" height="58" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="163" y="134">Stale</text><text x="163" y="154">Content</text>
+    <rect x="275" y="110" width="150" height="58" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="350" y="134">Poor</text><text x="350" y="154">Search</text>
+    <rect x="462" y="110" width="150" height="58" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="537" y="134">Low User</text><text x="537" y="154">Adoption</text>
+    <rect x="180" y="220" width="150" height="58" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="255" y="244">Legacy</text><text x="255" y="264">Systems</text>
+    <rect x="370" y="220" width="150" height="58" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="445" y="244">Mobile</text><text x="445" y="264">Access</text>
+  </g>
+  <circle cx="350" cy="182" r="28" fill="#12355b"/>
+  <text x="350" y="190" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">!</text>
+  <path d="M238 139 L322 174 M425 139 L378 174 M255 220 L329 195 M445 220 L374 195" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Future intranet with AI and cloud</title>
+  <desc id="desc">Future intranets combine AI search, cloud services, hybrid work, low code tools, and zero trust.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Future Intranet: AI and Cloud</text>
+  <g transform="translate(282 102)">
+    <path d="M40 93 C9 91 0 57 27 45 C34 18 67 12 83 31 C106 20 139 36 136 67 C159 70 164 95 143 108 H40 Z" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="3"/>
+    <text x="79" y="78" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#12355b">AI</text>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#12355b">
+    <rect x="80" y="115" width="142" height="48" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="151" y="145">Smart Search</text>
+    <rect x="80" y="223" width="142" height="48" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="151" y="253">Hybrid Work</text>
+    <rect x="478" y="115" width="142" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="549" y="145">Low Code</text>
+    <rect x="478" y="223" width="142" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="549" y="253">Zero Trust</text>
+  </g>
+  <path d="M222 139 H287 M222 247 H319 M414 139 H478 M381 247 H478" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>

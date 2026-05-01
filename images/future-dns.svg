@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Future of DNS</title>
+  <desc id="desc">Future DNS ideas include encrypted DNS, service binding records, IPv6, decentralized names, and threat detection.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">The Future of DNS</text>
+  <circle cx="350" cy="178" r="61" fill="#12355b"/>
+  <text x="350" y="171" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">DNS</text>
+  <text x="350" y="197" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#dbeafe">evolving</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#12355b" text-anchor="middle">
+    <rect x="70" y="112" width="140" height="48" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="140" y="142">Encrypted DNS</text>
+    <rect x="70" y="222" width="140" height="48" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="140" y="252">ODoH Privacy</text>
+    <rect x="490" y="112" width="140" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="560" y="142">HTTPS Records</text>
+    <rect x="490" y="222" width="140" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="560" y="252">IPv6 Growth</text>
+    <rect x="276" y="272" width="148" height="38" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="350" y="296">Threat Detection</text>
+  </g>
+  <g stroke="#c2415d" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M210 136 H289"/>
+    <path d="M210 246 H291"/>
+    <path d="M411 136 H490"/>
+    <path d="M409 246 H490"/>
+    <path d="M350 240 V272"/>
+  </g>
+  <circle cx="350" cy="178" r="96" fill="none" stroke="#c2415d" stroke-width="3" stroke-dasharray="8 9"/>
+</svg>

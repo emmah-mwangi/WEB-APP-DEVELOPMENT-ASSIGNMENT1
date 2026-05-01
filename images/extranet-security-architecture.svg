@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Extranet security architecture</title>
+  <desc id="desc">Extranet security uses MFA, TLS, VPN or zero trust, firewall, audit logs, and role-based access.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Extranet Security Architecture</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="68" y="145" width="104" height="60" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="120" y="170" fill="#12355b">External</text><text x="120" y="190" fill="#526174">User</text>
+    <rect x="225" y="145" width="104" height="60" rx="8" fill="#edf2f7" stroke="#9fb0c5"/>
+    <text x="277" y="170" fill="#12355b">MFA</text><text x="277" y="190" fill="#526174">TLS</text>
+    <rect x="382" y="145" width="104" height="60" rx="8" fill="#edf2f7" stroke="#9fb0c5"/>
+    <text x="434" y="170" fill="#12355b">Firewall</text><text x="434" y="190" fill="#526174">DMZ</text>
+    <rect x="539" y="145" width="104" height="60" rx="8" fill="#12355b"/>
+    <text x="591" y="170" fill="#ffffff">Partner</text><text x="591" y="190" fill="#dbeafe">Portal</text>
+  </g>
+  <g stroke="#c2415d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M172 175 H223"/>
+    <path d="M204 164 L224 175 L204 186"/>
+    <path d="M329 175 H380"/>
+    <path d="M361 164 L381 175 L361 186"/>
+    <path d="M486 175 H537"/>
+    <path d="M518 164 L538 175 L518 186"/>
+  </g>
+  <rect x="245" y="248" width="210" height="40" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+  <text x="350" y="273" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#12355b">RBAC + audit logging</text>
+</svg>

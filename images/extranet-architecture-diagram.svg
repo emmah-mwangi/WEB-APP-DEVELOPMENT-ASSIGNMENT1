@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Extranet network architecture</title>
+  <desc id="desc">Partners connect over VPN or HTTPS to a DMZ portal, which connects to internal applications through controlled APIs.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Extranet Technical Architecture</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+    <rect x="70" y="140" width="110" height="70" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="125" y="169" fill="#12355b">Partner</text><text x="125" y="190" fill="#526174">Network</text>
+    <path d="M236 193 C208 191 201 162 225 151 C231 131 256 127 270 143 C288 134 314 149 311 174 C329 177 333 196 316 205 H236 Z" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="2"/>
+    <text x="268" y="180" fill="#12355b">VPN</text>
+    <rect x="370" y="119" width="120" height="60" rx="8" fill="#edf2f7" stroke="#9fb0c5"/>
+    <text x="430" y="154" fill="#12355b">DMZ Portal</text>
+    <rect x="370" y="218" width="120" height="48" rx="8" fill="#edf2f7" stroke="#9fb0c5"/>
+    <text x="430" y="247" fill="#12355b">API Gateway</text>
+    <rect x="552" y="119" width="92" height="60" rx="8" fill="#12355b"/>
+    <text x="598" y="154" fill="#ffffff">ERP</text>
+    <ellipse cx="598" cy="239" rx="46" ry="15" fill="#c2415d"/>
+    <rect x="552" y="239" width="92" height="34" fill="#c2415d"/>
+    <ellipse cx="598" cy="273" rx="46" ry="15" fill="#9f2d48"/>
+    <text x="598" y="260" fill="#ffffff">DB</text>
+  </g>
+  <path d="M180 175 H221 M316 175 H368 M430 179 V218 M490 149 H552 M490 242 H552" stroke="#c2415d" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>

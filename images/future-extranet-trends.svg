@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Future extranet technology trends</title>
+  <desc id="desc">Future extranets use cloud collaboration, APIs, zero trust, AI assistants, edge services, and smart contracts.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Future Extranet Trends</text>
+  <circle cx="350" cy="177" r="58" fill="#12355b"/>
+  <text x="350" y="171" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Extranet</text>
+  <text x="350" y="196" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#dbeafe">business network</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#12355b" text-anchor="middle">
+    <rect x="78" y="112" width="135" height="46" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="145" y="141">Cloud Workspaces</text>
+    <rect x="78" y="225" width="135" height="46" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="145" y="254">API-led Access</text>
+    <rect x="487" y="112" width="135" height="46" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="554" y="141">Zero Trust</text>
+    <rect x="487" y="225" width="135" height="46" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="554" y="254">AI Assistants</text>
+    <rect x="276" y="272" width="148" height="38" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="350" y="296">Smart Contracts</text>
+  </g>
+  <path d="M213 135 H292 M213 248 H302 M408 135 H487 M398 248 H487 M350 235 V272" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Extranet benefits graph</title>
+  <desc id="desc">Extranet benefits include faster orders, fewer support calls, better collaboration, and stronger audit trails.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Extranet Advantages and ROI</text>
+  <g transform="translate(96 104)">
+    <line x1="0" y1="170" x2="500" y2="170" stroke="#9fb0c5" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="170" stroke="#9fb0c5" stroke-width="2"/>
+    <rect x="55" y="68" width="58" height="102" fill="#c2415d"/>
+    <rect x="170" y="39" width="58" height="131" fill="#12355b"/>
+    <rect x="285" y="88" width="58" height="82" fill="#f59e0b"/>
+    <rect x="400" y="23" width="58" height="147" fill="#7dd3fc"/>
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#12355b" text-anchor="middle">
+      <text x="84" y="194">Speed</text>
+      <text x="199" y="194">Self-service</text>
+      <text x="314" y="194">Trust</text>
+      <text x="429" y="194">Audit trail</text>
+    </g>
+  </g>
+  <path d="M106 224 C210 160 303 185 410 124 C470 90 535 95 596 72" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M575 66 L599 71 L582 90" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

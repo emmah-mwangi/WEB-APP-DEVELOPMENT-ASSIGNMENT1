@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Extranet deployment best practices</title>
+  <desc id="desc">Best practices include pilot rollout, responsive design, governance, support, access reviews, and API documentation.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Extranet Deployment Checklist</text>
+  <g transform="translate(110 92)" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#12355b">
+    <rect width="480" height="208" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <g font-weight="700">
+      <text x="72" y="46">Pilot with trusted partners</text>
+      <text x="72" y="78">Responsive user interface</text>
+      <text x="72" y="110">Clear content governance</text>
+      <text x="72" y="142">Support desk and SLAs</text>
+      <text x="72" y="174">Access reviews and offboarding</text>
+    </g>
+    <g fill="#c2415d" font-size="24" font-weight="700">
+      <text x="34" y="47">✓</text>
+      <text x="34" y="79">✓</text>
+      <text x="34" y="111">✓</text>
+      <text x="34" y="143">✓</text>
+      <text x="34" y="175">✓</text>
+    </g>
+    <rect x="342" y="32" width="86" height="118" rx="8" fill="#12355b"/>
+    <rect x="360" y="54" width="50" height="8" rx="4" fill="#dbeafe"/>
+    <rect x="360" y="78" width="50" height="8" rx="4" fill="#dbeafe"/>
+    <rect x="360" y="102" width="50" height="8" rx="4" fill="#dbeafe"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Intranet security layers</title>
+  <desc id="desc">Layered intranet security includes firewall, VPN, MFA, RBAC, HTTPS, and monitoring.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Intranet Security Layers</text>
+  <g transform="translate(260 92)">
+    <path d="M90 0 L172 34 V99 C172 153 134 187 90 210 C46 187 8 153 8 99 V34 Z" fill="#12355b"/>
+    <path d="M90 24 L145 48 V96 C145 132 122 158 90 176 C58 158 35 132 35 96 V48 Z" fill="#e0f2fe"/>
+    <rect x="64" y="86" width="52" height="42" rx="7" fill="#c2415d"/>
+    <path d="M73 86 V72 C73 51 107 51 107 72 V86" fill="none" stroke="#c2415d" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#12355b" text-anchor="middle">
+    <rect x="76" y="113" width="116" height="40" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="134" y="138">Firewall</text>
+    <rect x="76" y="181" width="116" height="40" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="134" y="206">VPN</text>
+    <rect x="76" y="249" width="116" height="40" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+    <text x="134" y="274">Monitoring</text>
+    <rect x="508" y="113" width="116" height="40" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="566" y="138">MFA</text>
+    <rect x="508" y="181" width="116" height="40" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="566" y="206">RBAC</text>
+    <rect x="508" y="249" width="116" height="40" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="566" y="274">HTTPS</text>
+  </g>
+  <path d="M192 133 H259 M192 201 H259 M192 269 H259 M441 133 H508 M441 201 H508 M441 269 H508" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>

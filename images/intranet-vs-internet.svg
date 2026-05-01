@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Intranet versus internet</title>
+  <desc id="desc">The intranet is private and authenticated, while the internet is public and global.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Intranet vs Internet</text>
+  <line x1="350" y1="90" x2="350" y2="300" stroke="#d7e0ec" stroke-width="2"/>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <circle cx="180" cy="150" r="58" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="3"/>
+    <text x="180" y="146" font-size="22" font-weight="700" fill="#12355b">Intranet</text>
+    <text x="180" y="172" font-size="14" fill="#526174">Private access</text>
+    <rect x="97" y="236" width="166" height="38" rx="8" fill="#edf2f7"/>
+    <text x="180" y="260" font-size="15" font-weight="700" fill="#12355b">Employees only</text>
+    <circle cx="520" cy="150" r="58" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+    <text x="520" y="146" font-size="22" font-weight="700" fill="#12355b">Internet</text>
+    <text x="520" y="172" font-size="14" fill="#526174">Public network</text>
+    <rect x="437" y="236" width="166" height="38" rx="8" fill="#edf2f7"/>
+    <text x="520" y="260" font-size="15" font-weight="700" fill="#12355b">Anyone online</text>
+  </g>
+  <path d="M180 100 C205 122 205 178 180 200 C155 178 155 122 180 100 M462 150 H578 M520 92 V208" stroke="#c2415d" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

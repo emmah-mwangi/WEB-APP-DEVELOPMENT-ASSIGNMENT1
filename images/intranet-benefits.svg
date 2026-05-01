@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Intranet benefits diagram</title>
+  <desc id="desc">An intranet hub connects company announcements, documents, help desk, and collaboration.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Key Intranet Benefits</text>
+  <circle cx="350" cy="178" r="62" fill="#12355b"/>
+  <text x="350" y="172" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Intranet</text>
+  <text x="350" y="198" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#dbeafe">central hub</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#12355b" text-anchor="middle">
+    <rect x="82" y="111" width="135" height="48" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="149" y="141">Announcements</text>
+    <rect x="82" y="219" width="135" height="48" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="149" y="249">HR Forms</text>
+    <rect x="483" y="111" width="135" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="550" y="141">Documents</text>
+    <rect x="483" y="219" width="135" height="48" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="550" y="249">Help Desk</text>
+  </g>
+  <path d="M217 135 L290 165 M217 243 L290 194 M410 165 L483 135 M410 194 L483 243" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Extranet business applications</title>
+  <desc id="desc">Extranet applications include client portals, supplier inventory, logistics tracking, and franchise resources.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#ffffff" stroke="#d7e0ec"/>
+  <text x="350" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#12355b">Typical Extranet Applications</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#12355b" text-anchor="middle">
+    <rect x="85" y="103" width="160" height="74" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="165" y="133">Client</text><text x="165" y="154">Portal</text>
+    <rect x="455" y="103" width="160" height="74" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="535" y="133">Supplier</text><text x="535" y="154">Inventory</text>
+    <rect x="85" y="220" width="160" height="74" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="165" y="250">Logistics</text><text x="165" y="271">Tracking</text>
+    <rect x="455" y="220" width="160" height="74" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="535" y="250">Franchise</text><text x="535" y="271">Resources</text>
+    <circle cx="350" cy="198" r="52" fill="#12355b"/>
+    <text x="350" y="193" fill="#ffffff" font-size="20">Extranet</text>
+    <text x="350" y="216" fill="#dbeafe" font-size="13">shared access</text>
+  </g>
+  <path d="M245 140 L305 176 M455 140 L395 176 M245 257 L305 220 M455 257 L395 220" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+</svg>
