@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">Anatomy of a URL</title>
+  <desc id="desc">A URL is divided into scheme, host, path, query, and fragment parts.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Anatomy of a URL</text>
+  <rect x="78" y="128" width="544" height="58" rx="8" fill="#15263b"/>
+  <text x="350" y="164" text-anchor="middle" font-family="Consolas,monospace" font-size="21" fill="#fff">https://www.example.com/docs?id=7#intro</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#12355b">
+    <rect x="82" y="224" width="88" height="38" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="126" y="248">scheme</text>
+    <rect x="190" y="224" width="118" height="38" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="249" y="248">host</text>
+    <rect x="328" y="224" width="88" height="38" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="372" y="248">path</text>
+    <rect x="436" y="224" width="88" height="38" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="480" y="248">query</text>
+    <rect x="544" y="224" width="88" height="38" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="588" y="248">fragment</text>
+  </g>
+  <g stroke="#c2415d" stroke-width="3" stroke-linecap="round">
+    <path d="M126 224 V190"/><path d="M249 224 V190"/><path d="M372 224 V190"/><path d="M480 224 V190"/><path d="M588 224 V190"/>
+  </g>
+</svg>

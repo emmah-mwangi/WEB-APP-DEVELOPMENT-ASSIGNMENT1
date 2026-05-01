@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">URL fragment anchor links</title>
+  <desc id="desc">A URL fragment scrolls the browser to a matching section of the document.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Fragments and Anchor Links</text>
+  <rect x="118" y="96" width="464" height="210" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+  <rect x="160" y="128" width="300" height="14" rx="7" fill="#526174"/>
+  <rect x="160" y="170" width="260" height="14" rx="7" fill="#526174"/>
+  <rect x="160" y="212" width="360" height="46" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+  <text x="340" y="240" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#12355b">id="intro"</text>
+  <text x="350" y="286" text-anchor="middle" font-family="Consolas,monospace" font-size="17" fill="#c2415d">#intro</text>
+  <path d="M500 170 C542 184 544 225 522 240" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M516 218 L522 242 L542 226" fill="none" stroke="#c2415d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">URL scheme host and port</title>
+  <desc id="desc">The URL scheme selects the protocol, the host selects the server, and the port selects a service.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">Scheme, Host, and Port</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="middle">
+    <rect x="82" y="126" width="150" height="96" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="157" y="164" font-size="21" fill="#12355b">https</text><text x="157" y="192" font-size="14" fill="#526174">protocol</text>
+    <rect x="275" y="126" width="150" height="96" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+    <text x="350" y="164" font-size="21" fill="#12355b">example.com</text><text x="350" y="192" font-size="14" fill="#526174">host</text>
+    <rect x="468" y="126" width="150" height="96" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/>
+    <text x="543" y="164" font-size="21" fill="#12355b">443</text><text x="543" y="192" font-size="14" fill="#526174">port</text>
+  </g>
+  <text x="350" y="270" text-anchor="middle" font-family="Consolas,monospace" font-size="18" fill="#c2415d">https://example.com:443</text>
+</svg>

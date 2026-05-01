@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="350" viewBox="0 0 700 350" role="img" aria-labelledby="title desc">
+  <title id="title">URL path component</title>
+  <desc id="desc">The path component points to a resource or route on the server.</desc>
+  <rect width="700" height="350" fill="#f4f7fb"/>
+  <rect x="28" y="28" width="644" height="294" rx="8" fill="#fff" stroke="#d7e0ec"/>
+  <text x="350" y="63" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#12355b">The URL Path Component</text>
+  <rect x="110" y="103" width="480" height="198" rx="8" fill="#edf2f7" stroke="#d7e0ec"/>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#12355b">
+    <rect x="150" y="135" width="120" height="36" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="176" y="159">articles</text>
+    <rect x="290" y="135" width="130" height="36" rx="8" fill="#fef3c7" stroke="#f59e0b"/><text x="313" y="159">technology</text>
+    <rect x="440" y="135" width="112" height="36" rx="8" fill="#e0f2fe" stroke="#7dd3fc"/><text x="463" y="159">url.html</text>
+  </g>
+  <path d="M270 153 H290 M420 153 H440" stroke="#c2415d" stroke-width="4" stroke-linecap="round"/>
+  <text x="350" y="235" text-anchor="middle" font-family="Consolas,monospace" font-size="18" fill="#c2415d">/articles/technology/url.html</text>
+</svg>
